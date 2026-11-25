@@ -27,4 +27,4 @@ Players rebuild game files locally. Releases contain the patcher and English/map
 
 The updater uses this repository's HTTPS channel and release assets, verifies SHA-256 and file sizes, and retains compatible cached data for offline use. Packages cannot install scripts or executables. The current channel is not separately signed; the publishing GitHub account is the update trust boundary.
 
-This is the distribution repository. Local extraction data, translation memory, credentials and development files are not published here.
+This is the distribution repository. Its Git tree contains only this README and the small update pointer. The executable and English data are GitHub Release downloads. Local extraction data, translation memory, credentials, maintainer API code and development files are not published here.
