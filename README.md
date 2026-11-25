@@ -1,10 +1,10 @@
-# Azur Promilia English — v0.5.1 Pre-Launch
+# Azur Promilia English — v0.5.2 Pre-Launch
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as launch content arrives.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.1/AzurPromiliaEnglish.exe)** from the [v0.5.1 Pre-Launch release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.1).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.2/AzurPromiliaEnglish.exe)** from the [v0.5.2 Pre-Launch release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.2).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
@@ -17,7 +17,9 @@ The current data contains **72,216 matching game/interface translation entries**
 
 English corrections, glossary changes, compatible new tables/IDs, supported interface locations and news articles can arrive as **data updates**, without downloading another executable. Updates are translated and prepared by maintainers; users apply them locally.
 
-The update-screen language file requires **v0.5.1**. Download it once and select **Apply English**; future compatible updates to these messages can arrive through data updates.
+**v0.5.2 fixes missing update prompts and hidden controls.** Required executable updates now open a download dialog as soon as the update check finishes. Update, setup, recovery and launch controls stay visible without scrolling. Download this executable once if you are using an older version; the old executable cannot receive this interface fix through translation data.
+
+The update-screen language file is supported. Future compatible translation and glossary updates continue to arrive as data updates, without another executable download.
 
 Before launch, **Update and launch** applies changed game data or refreshes news data. A newer optional executable offers a download; a required compatibility/fix release blocks launch until updated. If the online check cannot finish, the patcher asks before using verified saved data.
 

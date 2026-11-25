@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "sequence": 1795616684616,
+  "sequence": 1795622393158,
   "state": "ready",
-  "minimum_patcher": "0.5.1",
-  "latest_patcher": "0.5.1",
+  "minimum_patcher": "0.5.2",
+  "latest_patcher": "0.5.2",
   "minimum_engine": 1,
   "required_capabilities": [
     "declarative-mapping-v1",
@@ -15,8 +15,8 @@
     "unity-packed-static-ui-v1",
     "unity-startup-sdk-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.1",
-  "reason": "Required support for translated update-screen language files.",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.2",
+  "reason": "Required fix for update prompts and controls hidden below the visible window.",
   "data": {
     "version": "prelaunch-20261125-02",
     "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-prelaunch-20261125-02/english-data.zip",
