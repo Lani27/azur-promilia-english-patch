@@ -1,21 +1,23 @@
-# Azur Promilia English — v0.5 Pre-Launch
+# Azur Promilia English — v0.5.1 Pre-Launch
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as launch content arrives.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.0/AzurPromiliaEnglish.exe)** from the [v0.5 Pre-Launch release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.0).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.1/AzurPromiliaEnglish.exe)** from the [v0.5.1 Pre-Launch release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.1).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
 3. Select **Apply English**.
 4. Select **Launch game**. The patcher checks for updates first and prompts when newer English/news data or a patcher release is available. Use the optional **DirectX 12** checkbox to launch with DX12.
 
-The current data contains **72,107 matching game/interface translations** and **17 news article bodies**. News list/header titles and Japanese lettering inside images remain untranslated. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
+The current data contains **72,216 matching game/interface translation entries** and **17 news article bodies**. This includes 109 existing messages in the separate update-screen language file; loading tooltips have been confirmed in English in-game. News list/header titles and Japanese lettering inside images remain untranslated. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
 
 ## Updates
 
 English corrections, glossary changes, compatible new tables/IDs, supported interface locations and news articles can arrive as **data updates**, without downloading another executable. Updates are translated and prepared by maintainers; users apply them locally.
+
+The update-screen language file requires **v0.5.1**. Download it once and select **Apply English**; future compatible updates to these messages can arrive through data updates.
 
 Before launch, **Update and launch** applies changed game data or refreshes news data. A newer optional executable offers a download; a required compatibility/fix release blocks launch until updated. If the online check cannot finish, the patcher asks before using verified saved data.
 
