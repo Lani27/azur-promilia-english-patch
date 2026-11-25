@@ -1,19 +1,41 @@
 {
   "schema": 1,
-  "sequence": 1795569984096,
-  "state": "preparing",
-  "minimum_patcher": "0.1.0",
-  "latest_patcher": "0.2.0",
+  "sequence": 1795593285399,
+  "state": "ready",
+  "minimum_patcher": "0.5.0",
+  "latest_patcher": "0.5.0",
   "minimum_engine": 1,
   "required_capabilities": [
     "declarative-mapping-v1",
+    "declarative-static-ui-locations-v1",
     "mmap-jp-v1",
+    "public-news-http-cache-v1",
     "source-context-sha256",
+    "unity-packed-static-ui-v1",
     "unity-startup-sdk-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.2.0",
-  "reason": "",
-  "data": null,
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.0",
+  "reason": "Required support for data-defined interface locations and launch-time update checks.",
+  "data": {
+    "version": "prelaunch-20261125-01",
+    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-prelaunch-20261125-01/english-data.zip",
+    "size": 7906200,
+    "sha256": "9c534873b10c95d83230b1f1c2fd7b90db1170a5cbfe2ce2f548aaba44424845",
+    "files": {
+      "english.catalog.json.gz": {
+        "size": 7892149,
+        "sha256": "6d20b6ec38658f2a4e9a3ac87400aa07912efc90b5caf5ea0c93a45a16a6940a"
+      },
+      "mapping.json": {
+        "size": 779,
+        "sha256": "e5416b67777d8d11e9da3736d7bb1fdca3cf098c2ec4da8ad2505b4cbef3b7a5"
+      }
+    },
+    "news": {
+      "size": 34634,
+      "sha256": "6ad651bd925a8bf924590a88aa106116da92f852c19526d0074b267ebd1cc758"
+    }
+  },
   "game_content": {
     "schema": 1,
     "launcher_version": "1.0.1",
@@ -24,6 +46,6 @@
       "raw_streaming_package": 3219598,
       "static_package": 3075915
     },
-    "verified_at": "2026-11-25T01:21:40+00:00"
+    "verified_at": "2026-11-25T07:54:45+00:00"
   }
 }
