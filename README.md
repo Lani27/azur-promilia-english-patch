@@ -1,38 +1,36 @@
-# Azur Promilia English patcher
+# Azur Promilia English — v0.5 Pre-Launch
 
-CPDD community English patcher for the Japanese Azur Promilia client. Get help and updates in [CPDD Discord](https://discord.gg/yyds).
-
-**Development preview:** the desktop updater and local patching/recovery tools are available. Full English translation is still being generated. In-game loading and layout have not yet been verified. The preview will download English data when a validated release is published; it will not apply an incomplete catalog.
+CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as launch content arrives.
 
 ## Download
 
-Download `AzurPromiliaEnglish.exe` from the [Rust patcher preview](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.2.0).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.0/AzurPromiliaEnglish.exe)** from the [v0.5 Pre-Launch release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.0).
 
-1. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
-2. Let it check for the latest English data.
-3. Finish any launcher update, then launch the game and finish its first-screen download. Close the game before choosing **Apply English**.
-4. Use **Restore Japanese** to restore the exact locally backed-up files. Use **Recover interrupted patch** if an operation was interrupted.
+1. Finish updates through the official launcher, including any download on the game's first screen. Close the game.
+2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
+3. Select **Apply English**.
+4. Select **Launch game**. The patcher checks for updates first and prompts when newer English/news data or a patcher release is available. Use the optional **DirectX 12** checkbox to launch with DX12.
 
-The preview currently displays **English translation is in progress** until the complete catalog is available.
-
-The Rust app uses an Azur Promilia theme and the CPDD icon. Automatic detection checks local fixed drives and Windows installation records; network drives and junctions are skipped. You can browse to another local installation. The UI sleeps between events, enables VSync, and caps redraws at 30 FPS.
-
-## Help and recovery
-
-Errors show a short explanation and the next step. Use **Open log** or **Copy log**, then [Get help on Discord](https://discord.gg/yyds). Logs are stored under `%LOCALAPPDATA%\AzurPromiliaEnglish\logs`.
-
-**In-game update required** means your content packages are older than the published verified build. Open the game through its official launcher, let the title-screen download finish, then close it and reopen the patcher. This check is separate from English-data and executable updates. It compares against published game-content requirements; it does not query the game's authenticated version service or claim live server freshness. If no comparison is available, the app says the content version is unverified.
+The current data contains **72,107 matching game/interface translations** and **17 news article bodies**. News list/header titles and Japanese lettering inside images remain untranslated. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
 
 ## Updates
 
-English translations, glossary corrections and supported mapping changes are published as separate data packages. Existing users receive those through the patcher without another executable download.
+English corrections, glossary changes, compatible new tables/IDs, supported interface locations and news articles can arrive as **data updates**, without downloading another executable. Updates are translated and prepared by maintainers; users apply them locally.
 
-An executable-update notice appears only when a data release requires a newer engine capability or a necessary patcher fix. A merely newer executable does not cause a notice.
+Before launch, **Update and launch** applies changed game data or refreshes news data. A newer optional executable offers a download; a required compatibility/fix release blocks launch until updated. If the online check cannot finish, the patcher asks before using verified saved data.
 
-Every build discovers the installed Japanese tables and row IDs again. English must match the exact current Japanese text and logical context. Changed or unknown strings stay Japanese until maintainers translate the new source. No old translation is selected by ID alone.
+New binary formats or unsupported decoder changes may require another executable. Data packages cannot install executable code. Each translation must match the current Japanese source and context; old English is never selected by ID alone. News bodies are checked against fresh official article content before use.
 
-Players rebuild game files locally. Releases contain the patcher and English/mapping data, never complete game archives. Local originals and recovery records remain on the player's computer under `%LOCALAPPDATA%\AzurPromiliaEnglish`.
+Before official launcher updates or repairs, use **Restore Japanese**, finish the game update, then apply English again. **Recover interrupted patch** handles interrupted operations while preserving recovery records.
 
-The updater uses this repository's HTTPS channel and release assets, verifies SHA-256 and file sizes, and retains compatible cached data for offline use. Packages cannot install scripts or executables. The current channel is not separately signed; the publishing GitHub account is the update trust boundary.
+## Help
 
-This is the distribution repository. Its Git tree contains only this README and the small update pointer. The executable and English data are GitHub Release downloads. Local extraction data, translation memory, credentials, maintainer API code and development files are not published here.
+If an error occurs, use **Copy log** or **Open log** and send the sanitized patcher log through **[Get help on Discord](https://discord.gg/yyds)**. Errors include a specific next step. Share the patcher's log, rather than the game's account or launcher logs.
+
+The patcher verifies the Japanese client's identity before checking compatibility. Automatic discovery uses local fixed drives and skips network paths and junctions. The Rust interface sleeps between events, uses VSync and caps redraws at 30 FPS.
+
+## Distribution
+
+This repository contains only this README and the update channel. Releases contain the executable, checksums and English/mapping/news data, never complete game archives or maintainer source, API tools, credentials or translation memory. Original game files and recovery records stay on each user's computer.
+
+Downloads use this repository's HTTPS channel and release assets with SHA-256 and size verification. The channel is not separately signed; the publishing GitHub account is the update trust boundary. Game-content checks compare installed manifests with the published verified build and do not claim live authenticated server freshness.
