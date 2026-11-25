@@ -6,7 +6,7 @@ Community English patcher for the Japanese Azur Promilia client.
 
 ## Download
 
-Download `AzurPromiliaEnglish.exe` from the [patcher preview release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.1.0). Discord can link directly to this release. Python and Gemini API keys are not needed.
+Download `AzurPromiliaEnglish.exe` from the [patcher preview release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.1.0). Discord can link directly to this release.
 
 1. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
 2. Let it check for the latest English data.
