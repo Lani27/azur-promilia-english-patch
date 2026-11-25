@@ -1,19 +1,27 @@
 # Azur Promilia English patcher
 
-Community English patcher for the Japanese Azur Promilia client.
+CPDD community English patcher for the Japanese Azur Promilia client. Get help and updates in [CPDD Discord](https://discord.gg/yyds).
 
 **Development preview:** the desktop updater and local patching/recovery tools are available. Full English translation is still being generated. In-game loading and layout have not yet been verified. The preview will download English data when a validated release is published; it will not apply an incomplete catalog.
 
 ## Download
 
-Download `AzurPromiliaEnglish.exe` from the [patcher preview release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.1.0). Discord can link directly to this release.
+Download `AzurPromiliaEnglish.exe` from the [Rust patcher preview](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.2.0).
 
 1. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
 2. Let it check for the latest English data.
-3. Close the game and finish any launcher update before choosing **Apply English**.
+3. Finish any launcher update, then launch the game and finish its first-screen download. Close the game before choosing **Apply English**.
 4. Use **Restore Japanese** to restore the exact locally backed-up files. Use **Recover interrupted patch** if an operation was interrupted.
 
 The preview currently displays **English translation is in progress** until the complete catalog is available.
+
+The Rust app uses an Azur Promilia theme and the CPDD icon. Automatic detection checks local fixed drives and Windows installation records; network drives and junctions are skipped. You can browse to another local installation. The UI sleeps between events, enables VSync, and caps redraws at 30 FPS.
+
+## Help and recovery
+
+Errors show a short explanation and the next step. Use **Open log** or **Copy log**, then [Get help on Discord](https://discord.gg/yyds). Logs are stored under `%LOCALAPPDATA%\AzurPromiliaEnglish\logs`.
+
+**In-game update required** means your content packages are older than the published verified build. Open the game through its official launcher, let the title-screen download finish, then close it and reopen the patcher. This check is separate from English-data and executable updates. It compares against published game-content requirements; it does not query the game's authenticated version service or claim live server freshness. If no comparison is available, the app says the content version is unverified.
 
 ## Updates
 
