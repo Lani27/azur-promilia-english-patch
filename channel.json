@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "sequence": 1795564842472,
+  "state": "preparing",
+  "minimum_patcher": "0.1.0",
+  "latest_patcher": "0.1.0",
+  "minimum_engine": 1,
+  "required_capabilities": [
+    "declarative-mapping-v1",
+    "mmap-jp-v1",
+    "source-context-sha256",
+    "unity-startup-sdk-v1"
+  ],
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.1.0",
+  "reason": "",
+  "data": null
+}
