@@ -17,7 +17,7 @@ The current data contains **72,216 matching game/interface translation entries**
 
 English and Bahasa Indonesia use the same patcher. Version 0.6.0 downloads the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate Indonesian patcher or manual JSON installation is needed.
 
-The initial Indonesian pack supplies **71,882 translated entries**. **334 entries use English fallback** because they failed formatting or number validation. Changed Japanese text or English references also fall back to the current English until the community translation is updated. News stays English; English-specific graphics and layout overrides are excluded from Indonesian text. Indonesian translation quality, fonts and layout still need in-game review.
+The current Indonesian pack supplies **72,216 validated entries**. The 334 previously rejected entries have been corrected, and all entries match the current English catalog. Changed Japanese text or English references also fall back to the current English until the community translation is updated. News stays English; English-specific graphics and layout overrides are excluded from Indonesian text. Indonesian translation quality, fonts and layout still need in-game review.
 
 Downloads verify size, SHA-256 and language identity. A previously verified compatible pack remains usable offline. Downloading never changes game files until **Apply translation** or an accepted pre-launch update. Select English and apply to switch back, or use **Restore Japanese** for exact originals.
 
