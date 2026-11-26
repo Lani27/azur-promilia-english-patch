@@ -1,15 +1,15 @@
-# Azur Promilia English — v0.5.2 Pre-Launch
+# Azur Promilia English — v0.5.3 Pre-Launch
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as launch content arrives.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.2/AzurPromiliaEnglish.exe)** from the [v0.5.2 Pre-Launch release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.2).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.3/AzurPromiliaEnglish.exe)** from the [v0.5.3 Pre-Launch release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.3).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
 3. Select **Apply English**.
-4. Select **Launch game**. The patcher checks for updates first and prompts when newer English/news data or a patcher release is available. Use the optional **DirectX 12** checkbox to launch with DX12.
+4. Select **Launch game**. The patcher checks for updates first and prompts when newer English/news data or a patcher release is available. It uses the game's normal graphics mode.
 
 The current data contains **72,216 matching game/interface translation entries** and **17 news article bodies**. This includes 109 existing messages in the separate update-screen language file; loading tooltips have been confirmed in English in-game. News list/header titles and Japanese lettering inside images remain untranslated. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
 
@@ -17,7 +17,7 @@ The current data contains **72,216 matching game/interface translation entries**
 
 English corrections, glossary changes, compatible new tables/IDs, supported interface locations and news articles can arrive as **data updates**, without downloading another executable. Updates are translated and prepared by maintainers; users apply them locally.
 
-**v0.5.2 fixes missing update prompts and hidden controls.** Required executable updates now open a download dialog as soon as the update check finishes. Update, setup, recovery and launch controls stay visible without scrolling. Download this executable once if you are using an older version; the old executable cannot receive this interface fix through translation data.
+**v0.5.3 removes the DirectX 12 option and supports menu-label line breaks.** “Garden of Star-Source” keeps its full name and displays on two lines. Successful launch and the corrected menu layout have been confirmed in-game. Required executable updates open a download dialog as soon as the update check finishes, and important controls remain visible without scrolling. Download this executable once if you are using an older version; compatible future label-layout changes can arrive through data updates.
 
 The update-screen language file is supported. Future compatible translation and glossary updates continue to arrive as data updates, without another executable download.
 
