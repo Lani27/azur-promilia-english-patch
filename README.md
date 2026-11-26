@@ -1,10 +1,10 @@
-# Azur Promilia English — v0.5.12
+# Azur Promilia English — v0.5.13
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.12/AzurPromiliaEnglish.exe)** from the [v0.5.12 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.12).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.13/AzurPromiliaEnglish.exe)** from the [v0.5.13 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.13).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game and official launcher.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
@@ -27,9 +27,18 @@ English corrections, glossary changes, compatible new tables/IDs, supported inte
 - Camera-fade coverage extended to both photo-mode cameras and distance-based fading/hiding.
 - Stronger source validation and independent restoration for mod assets.
 
-Download v0.5.12 and select **Apply English** once to install the full-text fix and refresh any already-installed camera-fade mod. Compatible future translation, news, layout and graphic changes remain data updates. Translation and news counts are unchanged from v0.5.9.
+**Changes since v0.5.12:**
 
-The exact v0.5.12 executable passed automated archive, install/reapply, independent mod removal and byte-exact restoration checks. Its integrated full-text fix and new or expanded mods still need live gameplay testing; not every long title is guaranteed to fit every resolution.
+- A large highlighted notice explains how to finish missing title-screen downloads, with a **Check game again** button.
+- Missing or unverified optional camera content no longer blocks an otherwise valid English installation. The patcher explains when full dialogue/interaction/quest text could not be enabled. Required translation files and recovery conflicts still receive strict checks.
+- Camera errors include the failing stage, asset identifier, expected/observed checksums and safe game-relative locations in the shared log.
+- Recognizes the reviewed external **AzurPromiliaJP-NoCameraFade Direct 1.0.0** modification and explains how to restore it with the original tool. External files and backups are not removed automatically.
+- Reviewed camera compatibility rules can arrive through data updates when the existing engine supports them.
+- New optional **Hide HUD UID** mod, off by default, with independent Install/Uninstall controls.
+
+Download v0.5.13 and select **Apply English** to use the updated camera handling. If full-text support is skipped, follow the reported recovery steps and apply again. Compatible future translation, news, layout and graphic changes remain data updates. Translation and news counts are unchanged from v0.5.9.
+
+Automated checks cover archive readback, temporary-copy install/reapply, independent mod removal, byte-exact restoration and missing/modified camera scenarios. The new HUD UID option still needs an in-game check across scene changes; not every long title is guaranteed to fit every resolution.
 
 Before launch, **Update and launch** applies changed game data or refreshes news data. A newer optional executable offers a download; a required compatibility/fix release blocks launch until updated. If the online check cannot finish, the patcher asks before using verified saved data.
 
@@ -53,6 +62,7 @@ The other mods remain separate:
 - **Disable TAA:** changes the last-used anti-aliasing profile, leaving DLSS/FSR/XeSS and FPS settings alone.
 - **Async shaders (DX11):** experimental; uninstall if graphical errors appear.
 - **No zoomed-in character fade:** disables angle and distance fading/hiding in overworld and photo cameras. Special runtime-controlled fades may remain.
+- **Hide HUD UID:** hides the HUD identifier while preserving the network/ping indicator. This does not cover identifiers separately stamped into exported photos.
 
 Mod actions update only affected files, preserving English and other mods. **Remove all mods / Restore defaults** removes optional mods and graphics while keeping English text. **Restore Japanese** also restores owned mod files and saved anti-aliasing values. Close the game and official launcher before installing or uninstalling mods.
 
