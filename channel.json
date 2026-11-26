@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "sequence": 1795684225992,
+  "sequence": 1795710196696,
   "state": "ready",
   "minimum_patcher": "0.5.13",
-  "latest_patcher": "0.5.13",
+  "latest_patcher": "0.6.0",
   "minimum_engine": 1,
   "required_capabilities": [
     "camera-distance-fade-v1",
@@ -26,7 +26,7 @@
     "unity-ui-layout-sizing-v1",
     "unity-ui-layout-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.13",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.0",
   "reason": "Required support for reviewed camera compatibility data and optional full-text recovery.",
   "data": {
     "version": "camera-compatibility-20261126-01",
