@@ -1,17 +1,17 @@
-# Azur Promilia English — v0.6.0
+# Azur Promilia English — v0.6.2
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.0/AzurPromiliaEnglish.exe)** from the [v0.6.0 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.0).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.2/AzurPromiliaEnglish.exe)** from the [v0.6.2 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.2).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game and official launcher.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
 3. For English, select **Apply English**. For Indonesian, choose **Settings → Game language → Bahasa Indonesia**, wait for its download, then select **Apply translation**.
 4. Select **Launch game**. The patcher checks for updates first and prompts when newer translation/news data or a patcher release is available. It uses the game's normal graphics mode.
 
-The current data contains **72,216 matching game/interface translation entries** and **23 news article bodies**. This includes 109 existing messages in the separate update-screen language file; loading tooltips have been confirmed in English in-game. News list/header titles remain Japanese. Optional English graphics cover the five achievement-book titles; other Japanese image lettering remains unchanged. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
+The current data contains **72,216 matching game/interface translation entries** and **23 news article bodies**. This includes 109 existing messages in the separate update-screen language file; loading tooltips have been confirmed in English in-game. News list/header titles remain Japanese. Optional English graphics now cover **84 approved images**, including five achievement-book titles and 79 additional UI graphics. Five larger approved replacements and other unsupported Japanese image lettering remain unchanged. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
 
 ## Game languages
 
@@ -25,7 +25,16 @@ Downloads verify size, SHA-256 and language identity. A previously verified comp
 
 ## Updates
 
-English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
+English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations, supported graphics and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
+
+**Changes since v0.6.0:**
+
+- 79 additional approved English graphics in **English Graphic Replacement**, for 84 total.
+- A new **Hide HUD UID** method that keeps ping and signal bars visible. Applying English repairs the old method even when the option is now off, then retains the selected state.
+- Better fitting gacha, gift and mission/dialogue-button text, with layout corrections across 26 interface assets.
+- Clearer instructions for missing or empty resources: finish the remaining downloads using the **wrench-and-hammer icon on the title screen**, then close the game and launcher before applying again.
+
+Download v0.6.2 and select **Apply English** to update an existing installation. Enabled English graphics update automatically; otherwise, use **Mods → English Graphic Replacement → Install**. This release needs the new executable once; later compatible artwork updates can be delivered as data.
 
 **Changes since v0.5.3:** 3,551 corrected English entries, reviewed terminology and ruby annotations, layout corrections across 22 interface assets, six additional news bodies and five optional achievement-book title graphics. Layout changes cover comparison/recommendation buttons, Kibo labels and values, role badges, Journey tasks, event rewards and observation banners.
 
@@ -46,7 +55,7 @@ English corrections, community translations, glossary changes, compatible new ta
 - Reviewed camera compatibility rules can arrive through data updates when the existing engine supports them.
 - New optional **Hide HUD UID** mod, off by default, with independent Install/Uninstall controls.
 
-Download v0.6.0 and apply the selected language to use the current patcher. If full-text support is skipped, follow the reported recovery steps and apply again. Compatible future translation, news, layout and graphic changes remain data updates. English translation and news counts are unchanged from v0.5.9.
+Download v0.6.2 and apply the selected language to use the current patcher. If full-text support is skipped, follow the reported recovery steps and apply again. Compatible future translation, news, layout and graphic changes remain data updates. English translation and news counts are unchanged from v0.5.9.
 
 Automated checks cover archive readback, temporary-copy install/reapply, independent mod removal, byte-exact restoration and missing/modified camera scenarios. The new HUD UID option still needs an in-game check across scene changes; not every long title is guaranteed to fit every resolution.
 
@@ -68,11 +77,11 @@ The **motion-sickness mods** group contains three independent options:
 
 The other mods remain separate:
 
-- **English Graphic Replacement:** English artwork for five achievement-book titles.
+- **English Graphic Replacement:** 84 English UI graphics, including the five achievement-book titles. Uninstall restores the original graphics.
 - **Disable TAA:** changes the last-used anti-aliasing profile, leaving DLSS/FSR/XeSS and FPS settings alone.
 - **Async shaders (DX11):** experimental; uninstall if graphical errors appear.
 - **No zoomed-in character fade:** disables angle and distance fading/hiding in overworld and photo cameras. Special runtime-controlled fades may remain.
-- **Hide HUD UID:** hides the HUD identifier while preserving the network/ping indicator. This does not cover identifiers separately stamped into exported photos.
+- **Hide HUD UID:** hides the HUD identifier through opacity while preserving ping and signal bars. Apply English also repairs the previous method, including when the option is now off. This does not cover identifiers separately stamped into exported photos.
 
 Mod actions update only affected files, preserving English and other mods. **Remove all mods / Restore defaults** removes optional mods and graphics while keeping English text. **Restore Japanese** also restores owned mod files and saved anti-aliasing values. Close the game and official launcher before installing or uninstalling mods.
 
