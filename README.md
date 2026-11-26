@@ -1,10 +1,10 @@
-# Azur Promilia English — v0.5.3 Pre-Launch
+# Azur Promilia English — v0.5.3
 
-CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as launch content arrives.
+CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.3/AzurPromiliaEnglish.exe)** from the [v0.5.3 Pre-Launch release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.3).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.3/AzurPromiliaEnglish.exe)** from the [v0.5.3 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.3).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
