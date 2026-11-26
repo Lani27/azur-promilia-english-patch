@@ -1,10 +1,10 @@
-# Azur Promilia English — v0.5.9
+# Azur Promilia English — v0.5.12
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.9/AzurPromiliaEnglish.exe)** from the [v0.5.9 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.9).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.12/AzurPromiliaEnglish.exe)** from the [v0.5.12 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.12).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game and official launcher.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
@@ -17,9 +17,19 @@ The current data contains **72,216 matching game/interface translation entries**
 
 English corrections, glossary changes, compatible new tables/IDs, supported interface locations and news articles can arrive as **data updates**, without downloading another executable. Updates are translated and prepared by maintainers; users apply them locally.
 
-**Changes since v0.5.3:** 3,551 corrected English entries, reviewed terminology and ruby annotations, layout corrections across 22 interface assets, six additional news bodies and five optional achievement-book title graphics. Layout changes cover comparison/recommendation buttons, Kibo labels and values, role badges, Journey tasks, event rewards and observation banners. Some native dialogue choices still have the game's character-limit truncation.
+**Changes since v0.5.3:** 3,551 corrected English entries, reviewed terminology and ruby annotations, layout corrections across 22 interface assets, six additional news bodies and five optional achievement-book title graphics. Layout changes cover comparison/recommendation buttons, Kibo labels and values, role badges, Journey tasks, event rewards and observation banners.
 
-Download v0.5.9 once for these new layout and optional-mod capabilities. Compatible future translation, news, layout and graphic changes remain data updates.
+**Changes since v0.5.9:**
+
+- Settings to change the patcher's data location, including downloads, recovery files and logs.
+- Full dialogue choices, interaction names and HUD quest titles on the supported game build, removing their fixed-length truncation.
+- Independent Disable Radial Blur and Disable Shared Camera Shake mods, grouped with the existing Motion Blur control.
+- Camera-fade coverage extended to both photo-mode cameras and distance-based fading/hiding.
+- Stronger source validation and independent restoration for mod assets.
+
+Download v0.5.12 and select **Apply English** once to install the full-text fix and refresh any already-installed camera-fade mod. Compatible future translation, news, layout and graphic changes remain data updates. Translation and news counts are unchanged from v0.5.9.
+
+The exact v0.5.12 executable passed automated archive, install/reapply, independent mod removal and byte-exact restoration checks. Its integrated full-text fix and new or expanded mods still need live gameplay testing; not every long title is guaranteed to fit every resolution.
 
 Before launch, **Update and launch** applies changed game data or refreshes news data. A newer optional executable offers a download; a required compatibility/fix release blocks launch until updated. If the online check cannot finish, the patcher asks before using verified saved data.
 
@@ -31,13 +41,24 @@ Before official launcher updates or repairs, use **Restore Japanese**, finish th
 
 Open the **Mods** tab and use each feature's **Install** or **Uninstall** button. Mods can be used before or after applying English and start off by default.
 
-- **English Graphic Replacement:** English artwork for five achievement-book titles.
+The **motion-sickness mods** group contains three independent options:
+
 - **Disable Motion Blur:** disables the shared camera-motion-blur volume; separate combat blur can remain.
+- **Disable Radial Blur:** disables radial and scan blur in the supported effect/story volumes; separate or runtime-controlled blur may remain.
+- **Disable Shared Camera Shake:** disables the shared shake profile; other camera-shake effects may remain.
+
+The other mods remain separate:
+
+- **English Graphic Replacement:** English artwork for five achievement-book titles.
 - **Disable TAA:** changes the last-used anti-aliasing profile, leaving DLSS/FSR/XeSS and FPS settings alone.
 - **Async shaders (DX11):** experimental; uninstall if graphical errors appear.
-- **No zoomed-in character fade:** keeps the character visible when the overworld camera is close.
+- **No zoomed-in character fade:** disables angle and distance fading/hiding in overworld and photo cameras. Special runtime-controlled fades may remain.
 
 Mod actions update only affected files, preserving English and other mods. **Remove all mods / Restore defaults** removes optional mods and graphics while keeping English text. **Restore Japanese** also restores owned mod files and saved anti-aliasing values. Close the game and official launcher before installing or uninstalling mods.
+
+## Data location
+
+Use **Settings → Change folder** to move the patcher's downloads, recovery files, preferences and logs to a dedicated folder on another local drive. **Use default location** moves them back. The default location is unchanged, and this setting does not move the game installation.
 
 ## Help
 
