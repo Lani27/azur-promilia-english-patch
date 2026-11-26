@@ -1,20 +1,22 @@
 {
   "schema": 1,
-  "sequence": 1795684225990,
+  "sequence": 1795684225992,
   "state": "ready",
-  "minimum_patcher": "0.5.12",
-  "latest_patcher": "0.5.12",
+  "minimum_patcher": "0.5.13",
+  "latest_patcher": "0.5.13",
   "minimum_engine": 1,
   "required_capabilities": [
     "camera-distance-fade-v1",
     "declarative-mapping-v1",
     "declarative-static-ui-locations-v1",
     "gameplay-label-wrap-v1",
+    "hud-uid-visibility-v1",
     "mmap-jp-v1",
     "motion-comfort-mods-v1",
     "optional-local-mods-v1",
     "photo-camera-fade-v1",
     "public-news-http-cache-v1",
+    "reviewed-full-text-camera-v1",
     "source-context-sha256",
     "unity-graphics-bc3-v1",
     "unity-packed-csv-jp-v1",
@@ -24,21 +26,21 @@
     "unity-ui-layout-sizing-v1",
     "unity-ui-layout-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.12",
-  "reason": "Required support for independent motion mods and expanded camera-fade controls.",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.13",
+  "reason": "Required support for reviewed camera compatibility data and optional full-text recovery.",
   "data": {
-    "version": "motion-comfort-camera-20261126-01",
-    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-motion-comfort-camera-20261126-01/english-data.zip",
-    "size": 8167914,
-    "sha256": "c8b3e598b2c1b4b595ce5ff4b872bb75515a117bf81c3b793eb921c58ab6bb04",
+    "version": "camera-compatibility-20261126-01",
+    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-camera-compatibility-20261126-01/english-data.zip",
+    "size": 8168235,
+    "sha256": "d6eaf09f1d73216d613b2355e222b0955c69b52855222ac3d2d7017becb1cc6f",
     "files": {
       "english.catalog.json.gz": {
         "size": 8118385,
         "sha256": "4a0a18a41757b6f9c489e12e3d9563f9571debf38d0d829aa4b00a098e3702a7"
       },
       "mapping.json": {
-        "size": 240670,
-        "sha256": "4a77a8d4bf7527ef93d582ed5045312b670f4eb6966a46df50ca59d2d062ec0c"
+        "size": 242330,
+        "sha256": "cd58e5394ba3e992466f38826cbc6d4bfbfb73475c87a9738e873222d4df7a15"
       }
     },
     "news": {
