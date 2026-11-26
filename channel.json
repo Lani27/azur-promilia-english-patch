@@ -1,15 +1,16 @@
 {
   "schema": 1,
-  "sequence": 1795710196696,
+  "sequence": 1795728351454,
   "state": "ready",
-  "minimum_patcher": "0.5.13",
-  "latest_patcher": "0.6.0",
+  "minimum_patcher": "0.6.2",
+  "latest_patcher": "0.6.2",
   "minimum_engine": 1,
   "required_capabilities": [
     "camera-distance-fade-v1",
     "declarative-mapping-v1",
     "declarative-static-ui-locations-v1",
     "gameplay-label-wrap-v1",
+    "hud-uid-runtime-opacity-v1",
     "hud-uid-visibility-v1",
     "mmap-jp-v1",
     "motion-comfort-mods-v1",
@@ -21,26 +22,27 @@
     "unity-graphics-bc3-v1",
     "unity-packed-csv-jp-v1",
     "unity-packed-static-ui-v1",
+    "unity-reviewed-artwork-v2",
     "unity-startup-sdk-v1",
     "unity-ui-layout-fixed-height-v1",
     "unity-ui-layout-sizing-v1",
     "unity-ui-layout-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.0",
-  "reason": "Required support for reviewed camera compatibility data and optional full-text recovery.",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.2",
+  "reason": "Required support for approved English sprites, atlas graphics and exact restoration.",
   "data": {
-    "version": "camera-compatibility-20261126-01",
-    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-camera-compatibility-20261126-01/english-data.zip",
-    "size": 8168235,
-    "sha256": "d6eaf09f1d73216d613b2355e222b0955c69b52855222ac3d2d7017becb1cc6f",
+    "version": "approved-artwork-20261127-01",
+    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-approved-artwork-20261127-01/english-data.zip",
+    "size": 12085631,
+    "sha256": "ff7192e6db8bb1d5a6049f37ce7ed07aed2f347fe82b8836f6b866c5591c84cc",
     "files": {
       "english.catalog.json.gz": {
-        "size": 8118385,
-        "sha256": "4a0a18a41757b6f9c489e12e3d9563f9571debf38d0d829aa4b00a098e3702a7"
+        "size": 12040680,
+        "sha256": "59843a78a1b826911316403b62fca4df8b6324c92e19e53d80e1de3b7bd40109"
       },
       "mapping.json": {
-        "size": 242330,
-        "sha256": "cd58e5394ba3e992466f38826cbc6d4bfbfb73475c87a9738e873222d4df7a15"
+        "size": 254975,
+        "sha256": "e0511c6771fdef5af6c04ca4eb51d85f82371601f081434b38147537a537ec50"
       }
     },
     "news": {
