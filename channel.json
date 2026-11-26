@@ -1,41 +1,46 @@
 {
   "schema": 1,
-  "sequence": 1795656815753,
+  "sequence": 1795684225988,
   "state": "ready",
-  "minimum_patcher": "0.5.3",
-  "latest_patcher": "0.5.3",
+  "minimum_patcher": "0.5.7",
+  "latest_patcher": "0.5.9",
   "minimum_engine": 1,
   "required_capabilities": [
     "declarative-mapping-v1",
     "declarative-static-ui-locations-v1",
     "gameplay-label-wrap-v1",
     "mmap-jp-v1",
+    "optional-local-mods-v1",
     "public-news-http-cache-v1",
     "source-context-sha256",
+    "unity-graphics-bc3-v1",
     "unity-packed-csv-jp-v1",
     "unity-packed-static-ui-v1",
-    "unity-startup-sdk-v1"
+    "unity-startup-sdk-v1",
+    "unity-ui-layout-fixed-height-v1",
+    "unity-ui-layout-sizing-v1",
+    "unity-ui-layout-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.3",
-  "reason": "Required support for menu label line breaks.",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.9",
+  "reason": "Required support for optional local mods and independent restoration.",
   "data": {
-    "version": "menu-wrap-20261126-01",
-    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-menu-wrap-20261126-01/english-data.zip",
-    "size": 7913730,
-    "sha256": "3909967b8c3757eb5d7c0e5a0aaaa3772b95bd36477a6cf0475986116407cad9",
+    "version": "terminology-ruby-layouts-20261126-01",
+    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-terminology-ruby-layouts-20261126-01/english-data.zip",
+    "size": 8166818,
+    "sha256": "8ca356010b70e68ddd5554c057514fb7ec42cab2947d60109512826f768bfd21",
     "files": {
       "english.catalog.json.gz": {
-        "size": 7899632,
-        "sha256": "45b5e46dac46864f75ac9c4bae0ed6e5f0b5d15c14860b3ceaf37bdbfb3a7f46"
+        "size": 8118385,
+        "sha256": "4a0a18a41757b6f9c489e12e3d9563f9571debf38d0d829aa4b00a098e3702a7"
       },
       "mapping.json": {
-        "size": 942,
-        "sha256": "ed9e96b5884aad5be39bbaa238f58a523c69f04b061e3f1bdb53f265bc652c24"
+        "size": 225627,
+        "sha256": "d6a30b1474ae23f5f85b764adb39b18d4c910b6f1f0ea9bea01d8af9cf2dab7c"
       }
     },
     "news": {
-      "size": 34634,
-      "sha256": "6ad651bd925a8bf924590a88aa106116da92f852c19526d0074b267ebd1cc758"
+      "size": 45408,
+      "sha256": "cb2253026d1da3112e420f807b1c121584c90f568ef47c65e297a4b5cf870b95"
     }
   },
   "game_content": {
