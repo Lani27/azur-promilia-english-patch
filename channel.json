@@ -1,13 +1,14 @@
 {
   "schema": 1,
-  "sequence": 1795622393158,
+  "sequence": 1795656815753,
   "state": "ready",
-  "minimum_patcher": "0.5.2",
-  "latest_patcher": "0.5.2",
+  "minimum_patcher": "0.5.3",
+  "latest_patcher": "0.5.3",
   "minimum_engine": 1,
   "required_capabilities": [
     "declarative-mapping-v1",
     "declarative-static-ui-locations-v1",
+    "gameplay-label-wrap-v1",
     "mmap-jp-v1",
     "public-news-http-cache-v1",
     "source-context-sha256",
@@ -15,17 +16,17 @@
     "unity-packed-static-ui-v1",
     "unity-startup-sdk-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.2",
-  "reason": "Required fix for update prompts and controls hidden below the visible window.",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.3",
+  "reason": "Required support for menu label line breaks.",
   "data": {
-    "version": "prelaunch-20261125-02",
-    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-prelaunch-20261125-02/english-data.zip",
-    "size": 7913690,
-    "sha256": "b2d16d91c75523814a1fbfb410f68617ff20245727854a80c1ac83c55737314d",
+    "version": "menu-wrap-20261126-01",
+    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-menu-wrap-20261126-01/english-data.zip",
+    "size": 7913730,
+    "sha256": "3909967b8c3757eb5d7c0e5a0aaaa3772b95bd36477a6cf0475986116407cad9",
     "files": {
       "english.catalog.json.gz": {
-        "size": 7899592,
-        "sha256": "815d92abc16ee54f3c39da0fc1e996847cb968be8f572865d955499feec26614"
+        "size": 7899632,
+        "sha256": "45b5e46dac46864f75ac9c4bae0ed6e5f0b5d15c14860b3ceaf37bdbfb3a7f46"
       },
       "mapping.json": {
         "size": 942,
