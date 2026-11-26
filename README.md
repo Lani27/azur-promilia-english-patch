@@ -1,21 +1,31 @@
-# Azur Promilia English — v0.5.13
+# Azur Promilia English — v0.6.0
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.5.13/AzurPromiliaEnglish.exe)** from the [v0.5.13 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.13).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.0/AzurPromiliaEnglish.exe)** from the [v0.6.0 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.0).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game and official launcher.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
-3. Select **Apply English**.
-4. Select **Launch game**. The patcher checks for updates first and prompts when newer English/news data or a patcher release is available. It uses the game's normal graphics mode.
+3. For English, select **Apply English**. For Indonesian, choose **Settings → Game language → Bahasa Indonesia**, wait for its download, then select **Apply translation**.
+4. Select **Launch game**. The patcher checks for updates first and prompts when newer translation/news data or a patcher release is available. It uses the game's normal graphics mode.
 
 The current data contains **72,216 matching game/interface translation entries** and **23 news article bodies**. This includes 109 existing messages in the separate update-screen language file; loading tooltips have been confirmed in English in-game. News list/header titles remain Japanese. Optional English graphics cover the five achievement-book titles; other Japanese image lettering remains unchanged. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
 
+## Game languages
+
+English and Bahasa Indonesia use the same patcher. Version 0.6.0 downloads the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate Indonesian patcher or manual JSON installation is needed.
+
+The initial Indonesian pack supplies **71,882 translated entries**. **334 entries use English fallback** because they failed formatting or number validation. Changed Japanese text or English references also fall back to the current English until the community translation is updated. News stays English; English-specific graphics and layout overrides are excluded from Indonesian text. Indonesian translation quality, fonts and layout still need in-game review.
+
+Downloads verify size, SHA-256 and language identity. A previously verified compatible pack remains usable offline. Downloading never changes game files until **Apply translation** or an accepted pre-launch update. Select English and apply to switch back, or use **Restore Japanese** for exact originals.
+
+**Import language pack** is available for local testing and pauses online updates for that language. **Use online language updates** resumes the hosted releases.
+
 ## Updates
 
-English corrections, glossary changes, compatible new tables/IDs, supported interface locations and news articles can arrive as **data updates**, without downloading another executable. Updates are translated and prepared by maintainers; users apply them locally.
+English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
 
 **Changes since v0.5.3:** 3,551 corrected English entries, reviewed terminology and ruby annotations, layout corrections across 22 interface assets, six additional news bodies and five optional achievement-book title graphics. Layout changes cover comparison/recommendation buttons, Kibo labels and values, role badges, Journey tasks, event rewards and observation banners.
 
@@ -36,7 +46,7 @@ English corrections, glossary changes, compatible new tables/IDs, supported inte
 - Reviewed camera compatibility rules can arrive through data updates when the existing engine supports them.
 - New optional **Hide HUD UID** mod, off by default, with independent Install/Uninstall controls.
 
-Download v0.5.13 and select **Apply English** to use the updated camera handling. If full-text support is skipped, follow the reported recovery steps and apply again. Compatible future translation, news, layout and graphic changes remain data updates. Translation and news counts are unchanged from v0.5.9.
+Download v0.6.0 and apply the selected language to use the current patcher. If full-text support is skipped, follow the reported recovery steps and apply again. Compatible future translation, news, layout and graphic changes remain data updates. English translation and news counts are unchanged from v0.5.9.
 
 Automated checks cover archive readback, temporary-copy install/reapply, independent mod removal, byte-exact restoration and missing/modified camera scenarios. The new HUD UID option still needs an in-game check across scene changes; not every long title is guaranteed to fit every resolution.
 
@@ -78,6 +88,6 @@ The patcher verifies the Japanese client's identity before checking compatibilit
 
 ## Distribution
 
-This repository contains only this README and the update channel. Releases contain the executable, checksums and English/mapping/news data, never complete game archives or maintainer source, API tools, credentials or translation memory. Original game files and recovery records stay on each user's computer.
+This repository contains only this README, the update channel and the community-language index. Releases contain the executable, checksums, English/mapping/news data and prepared community-language packs, never complete game archives or maintainer source, API tools, credentials or translation memory. Original game files and recovery records stay on each user's computer.
 
 Downloads use this repository's HTTPS channel and release assets with SHA-256 and size verification. The channel is not separately signed; the publishing GitHub account is the update trust boundary. Game-content checks compare installed manifests with the published verified build and do not claim live authenticated server freshness.
