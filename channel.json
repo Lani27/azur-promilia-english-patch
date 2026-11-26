@@ -1,16 +1,19 @@
 {
   "schema": 1,
-  "sequence": 1795684225988,
+  "sequence": 1795684225990,
   "state": "ready",
-  "minimum_patcher": "0.5.7",
-  "latest_patcher": "0.5.9",
+  "minimum_patcher": "0.5.12",
+  "latest_patcher": "0.5.12",
   "minimum_engine": 1,
   "required_capabilities": [
+    "camera-distance-fade-v1",
     "declarative-mapping-v1",
     "declarative-static-ui-locations-v1",
     "gameplay-label-wrap-v1",
     "mmap-jp-v1",
+    "motion-comfort-mods-v1",
     "optional-local-mods-v1",
+    "photo-camera-fade-v1",
     "public-news-http-cache-v1",
     "source-context-sha256",
     "unity-graphics-bc3-v1",
@@ -21,21 +24,21 @@
     "unity-ui-layout-sizing-v1",
     "unity-ui-layout-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.9",
-  "reason": "Required support for optional local mods and independent restoration.",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.5.12",
+  "reason": "Required support for independent motion mods and expanded camera-fade controls.",
   "data": {
-    "version": "terminology-ruby-layouts-20261126-01",
-    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-terminology-ruby-layouts-20261126-01/english-data.zip",
-    "size": 8166818,
-    "sha256": "8ca356010b70e68ddd5554c057514fb7ec42cab2947d60109512826f768bfd21",
+    "version": "motion-comfort-camera-20261126-01",
+    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-motion-comfort-camera-20261126-01/english-data.zip",
+    "size": 8167914,
+    "sha256": "c8b3e598b2c1b4b595ce5ff4b872bb75515a117bf81c3b793eb921c58ab6bb04",
     "files": {
       "english.catalog.json.gz": {
         "size": 8118385,
         "sha256": "4a0a18a41757b6f9c489e12e3d9563f9571debf38d0d829aa4b00a098e3702a7"
       },
       "mapping.json": {
-        "size": 225627,
-        "sha256": "d6a30b1474ae23f5f85b764adb39b18d4c910b6f1f0ea9bea01d8af9cf2dab7c"
+        "size": 240670,
+        "sha256": "4a77a8d4bf7527ef93d582ed5045312b670f4eb6966a46df50ca59d2d062ec0c"
       }
     },
     "news": {
