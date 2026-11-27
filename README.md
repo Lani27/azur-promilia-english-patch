@@ -1,14 +1,14 @@
-# Azur Promilia English — v0.6.4
+# Azur Promilia English — v0.6.6
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. Corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.4/AzurPromiliaEnglish.exe)** from the [v0.6.4 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.4).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.6/AzurPromiliaEnglish.exe)** from the [v0.6.6 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.6).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game and official launcher.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
-3. For English, select **Apply English**. For French or Indonesian, choose **Settings → Game language → Français / Bahasa Indonesia**, wait for its download, then select **Apply translation**.
+3. For English, select **Apply English**. For another language, choose **Settings → Game language → Français / Bahasa Indonesia / Español / Thai**, wait for its download, then select **Apply translation**.
 4. Select **Launch game**. The patcher checks for updates first and prompts when newer translation/news data or a patcher release is available. It uses the game's normal graphics mode.
 
 The current data contains **72,216 matching game/interface translation entries** and **23 news article bodies**. This includes 109 existing messages in the separate update-screen language file; loading tooltips have been confirmed in English in-game. News list/header titles remain Japanese. Optional English graphics now cover **84 approved images**, including five achievement-book titles and 79 additional UI graphics. Five larger approved replacements and other unsupported Japanese image lettering remain unchanged. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
@@ -16,10 +16,22 @@ The current data contains **72,216 matching game/interface translation entries**
 ## Game languages
 
 Community translation contributors (Discord): **Indonesian (rukathebest)** and **French (tonax.)**.
+Additional GitHub contributors: **French [pedrokarim](https://github.com/pedrokarim)**, **Spanish [KarloZ7715](https://github.com/KarloZ7715)** and **Thai [CXZP](https://github.com/CXZP)**.
 
-English, Français and Bahasa Indonesia use the same patcher. Version 0.6.0 and newer download the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate language-specific patcher or manual JSON installation is needed.
+English, Français, Bahasa Indonesia, Español and ไทย use the same patcher. Thai requires **v0.6.6 or newer** for its included font support. Version 0.6.0 and newer download the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate language-specific patcher or manual JSON installation is needed.
 
-The current French pack supplies **69,682 entries**. With the v0.6.3 English corrections, **69,391 match and 2,825 use English fallback**, including 291 entries whose English references changed. The Indonesian pack supplies **72,216 validated entries**; the 334 previously rejected entries have been corrected. Changed Japanese text or English references fall back to current English until the community translation is updated. News stays English; English-specific graphics and layout overrides are excluded from community-language text. Translation quality, fonts and layout still need in-game review.
+Current matching translations, out of 72,216 entries:
+
+| Language | Translated | English fallback |
+| --- | ---: | ---: |
+| Bahasa Indonesia | 71,925 | 291 |
+| Français | 70,495 | 1,721 |
+| Español | 71,925 | 291 |
+| ไทย | 63,686 | 8,530 |
+
+The French update adds 1,104 interface translations. Spanish has 291 lines awaiting review after English changes. Thai has 8,528 submitted lines held for formatting corrections and two unfinished lines; the editable kit preserves their wording for contributors. Changed Japanese text or English references use current English until reviewed.
+
+Thai includes glyph additions generated from **LINE Seed Sans TH**, under the [SIL Open Font License 1.1](FONT-LICENSES.md). They extend the gameplay and startup fallback atlases while preserving existing glyphs. Use v0.6.6 or newer to switch languages or restore after applying Thai. Installation, switching languages and restoration are verified on a temporary game copy; Thai combining marks, wrapping and translation quality still need in-game review. News stays English; English-specific graphics and layout overrides are excluded from community-language text.
 
 Downloads verify size, SHA-256 and language identity. A previously verified compatible pack remains usable offline. Downloading never changes game files until **Apply translation** or an accepted pre-launch update. Select English and apply to switch back, or use **Restore Japanese** for exact originals.
 
@@ -27,7 +39,7 @@ Downloads verify size, SHA-256 and language identity. A previously verified comp
 
 ## Contribute translations
 
-Download the **[translation kits and editable Japanese → English → target JSON files](CONTRIBUTING.md)** for a new language, Indonesian or French. **English is the maintained base**, updated by the maintainer; contributors translate or correct the target fields. Keep Japanese, English, context and entry IDs unchanged.
+Download the **[translation kits and editable Japanese → English → target JSON files](CONTRIBUTING.md)** for a new language, Indonesian, French, Spanish or Thai. **English is the maintained base**, updated by the maintainer; contributors translate or correct the target fields. Keep Japanese, English, context and entry IDs unchanged.
 
 Send a completed or partial file as a ZIP through **[Translation submission on GitHub](https://github.com/Lani27/azur-promilia-english-patch/issues/new?template=translation.yml)**. Small corrections can be submitted directly in the form. Include your language and kit version so changes can be merged without overwriting other work. Submissions are reviewed before a patcher language update is published.
 
@@ -35,12 +47,20 @@ Send a completed or partial file as a ZIP through **[Translation submission on G
 
 English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations, supported graphics and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
 
+**New in v0.6.6:**
+
+- Thai font support and a hosted Thai translation under **Settings → Game language → Thai**.
+- Spanish is now hosted alongside French and Indonesian; French gains 1,104 interface translations.
+- Refreshed contributor kits preserve pending translations and highlight formatting errors or changed English references. Submit fixes through the GitHub translation form.
+
+Select **Check for updates → Update and restart**, then choose your language and **Apply translation**. Thai font support requires this executable update; later compatible Thai translation updates download normally.
+
 **Changes since v0.6.3:**
 
 - Fixed startup and data-folder errors caused by a lone `GameAssembly.dll` above AppData, such as in a drive root or user-profile folder. The DLL does not need to be removed.
 - Actual game folders remain blocked as patcher data locations. The private fix was confirmed working on an affected user's PC.
 
-On v0.6.3, select **Check for updates → Update and restart**. If the error prevents startup, close the old patcher and open the v0.6.4 download above. This storage fix does not require reapplying translations; language packs, news, graphics and mods are unchanged.
+On v0.6.3, select **Check for updates → Update and restart**. If the error prevents startup, close the old patcher and open the current download above. This storage fix does not require reapplying translations; language packs, news, graphics and mods are unchanged.
 
 **Changes since v0.6.2:**
 
@@ -123,6 +143,6 @@ The patcher verifies the Japanese client's identity before checking compatibilit
 
 ## Distribution
 
-This repository contains player instructions, contribution instructions, the translation submission form, the update channel and the community-language index. Player releases contain the executable, checksums, English/mapping/news data and prepared community-language packs. Separate contributor releases contain editable Japanese/English/target JSON files, review reports and instructions. No complete game archives, maintainer source, API tools, credentials or translation memory are published. Original game files and recovery records stay on each user's computer.
+This repository contains player instructions, contribution instructions, the translation submission form, the update channel, the community-language index and the font license. Player releases contain the executable, checksums, English/mapping/news data and prepared community-language packs. Separate contributor releases contain editable Japanese/English/target JSON files, review reports and instructions. No complete game archives, maintainer source, API tools, credentials or translation memory are published. Original game files and recovery records stay on each user's computer.
 
 Downloads use this repository's HTTPS channel and release assets with SHA-256 and size verification. The channel is not separately signed; the publishing GitHub account is the update trust boundary. Game-content checks compare installed manifests with the published verified build and do not claim live authenticated server freshness.
