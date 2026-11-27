@@ -2,6 +2,138 @@
   "schema": 1,
   "packs": [
     {
+      "id": "4ff829b7e1225f8dfccbf7ca443b947d0261a8f50fb4e679fd9d52789556d834",
+      "language": "es",
+      "revision": 2026112803,
+      "game_version_code": 2646220,
+      "content_build": {
+        "raw_base_package": "3273851",
+        "raw_streaming_package": "3273851",
+        "default_package": "3273851",
+        "static_package": "2929638"
+      },
+      "name": "Español",
+      "minimum_patcher": 401,
+      "size": 19821547,
+      "sha256": "33b543101eb7bcaa769cebb6a24d6ef4b30665d08db991d978766a0e8e44284c",
+      "file_states": [
+        {
+          "path": "raw_base_package/BundleFiles/bl4qr5d222ly6qorx34moa.r",
+          "after_sha256": "412d179f30ec2128a0f209ac5e9720788828b76a3405c3f78088c144ab2cd59a"
+        },
+        {
+          "path": "raw_streaming_package/BundleFiles/siybjb4yevdjs7yv6iiw.r",
+          "after_sha256": "761f213288732aee7ec9eec1274924601c118fb64525ade5fbba3ba03ec5213f"
+        },
+        {
+          "path": "default_package/BundleFiles/6rcbsfqwqnfjlvxnywvw.r",
+          "after_sha256": "7c40198cd57b5b3d6234f2b166a968051c7ba51e39c15309210f95758bc9e262"
+        },
+        {
+          "path": "static_package/BundleFiles/cpddloadingenglish.r",
+          "after_sha256": "342216333af3c27dc629eb45d1f96651cf87e09e02990e5619f8e71e57fbe77c"
+        },
+        {
+          "path": "static_package/ManifestFiles/0release_static_package_2929638.bytes",
+          "after_sha256": "605407e83d8444780b6ae40407fdef6a3cb7ee1e9ffc0526c9cc30918e185296"
+        },
+        {
+          "path": "static_package/ManifestFiles/0release_static_package_2929638.hash",
+          "after_sha256": "1969cd5a102d2a780f5b54374f29e1013410fbc32778d8f5cc940581909c4e28"
+        }
+      ],
+      "signature": "c/4MLRS5DB0gLo04vVULAuvsYXIGABJLtupyWjb7wFjWtLherk82DMak45Av49BvE7lEyhO3PEVPmUao187oeKqDjFjyYsblRRBaWBsUvffWzJWnvXgHcw8zoBVIuAGHF43fR9c7EEn455U5s8DC1e39C1+4l6wOVxeGzJkjhrBu9MaQT4jykpR9KGZx1ECNY4qBPcOuyzQHjUQEWpKXdDQTX32y72RBl7vnl5tIO6lLsvVV6KigSCaZxJ5RIhYVuFyA4psKaK3RJV+301fAqd25Edo6/uM/C6eYFDpKNr4D3h33y19PwIq9NWXGPciYJS2hoex+1wXTiQ7QW7Flaqt2H/R+3NB/EYL+kV6ORtZJJcDLJTQPRJvz5Al4aWtNuFsEZounc5p94V15O6StDCNf52RmLqhaL/BiFku8rmG1FnoE+omecothuMS3i9tGATpxuAispVB1AJ0s00Hyec5CXdrXRgI1aQ9/IYVXiUUqQQclSeLYiIx4KkBDV6VA",
+      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/android-data-3273851-20261128.2/android-es-4ff829b7e1225f8d.zip"
+    },
+    {
+      "id": "1a515f472cf0c861a64acc8ba6078de0cc84c7ed3f0aa8241a82fa4bd5b6d663",
+      "language": "fr",
+      "revision": 2026112803,
+      "game_version_code": 2646220,
+      "content_build": {
+        "raw_base_package": "3273851",
+        "raw_streaming_package": "3273851",
+        "default_package": "3273851",
+        "static_package": "2929638"
+      },
+      "name": "Français",
+      "minimum_patcher": 401,
+      "size": 20081760,
+      "sha256": "cc98c6b0b12c1eb0d477254ea686bda4dce819b21cd5bbacd1de185a80f733cc",
+      "file_states": [
+        {
+          "path": "raw_base_package/BundleFiles/bl4qr5d222ly6qorx34moa.r",
+          "after_sha256": "1e4a48f7db1266c559fa2bf79da8083e5f13bd2009a40d2f764d79f3b26581e2"
+        },
+        {
+          "path": "raw_streaming_package/BundleFiles/siybjb4yevdjs7yv6iiw.r",
+          "after_sha256": "3b4478c788720cb4d00bba17bd1820303d775931d919f778c9d283487f1378d8"
+        },
+        {
+          "path": "default_package/BundleFiles/6rcbsfqwqnfjlvxnywvw.r",
+          "after_sha256": "36ff9754021f34ec49863755376ec358b87e79b842a5d7955bcf8be017d21acd"
+        },
+        {
+          "path": "static_package/BundleFiles/cpddloadingenglish.r",
+          "after_sha256": "dffd6fe5b784076e23db6587ecefbc9afa356a9c20f7f0cd484bc8673ce470b2"
+        },
+        {
+          "path": "static_package/ManifestFiles/0release_static_package_2929638.bytes",
+          "after_sha256": "ab2518702c16da49aa7451fff3f68cca22ce817f5a1f85bbd8f37e35cb7b4d7c"
+        },
+        {
+          "path": "static_package/ManifestFiles/0release_static_package_2929638.hash",
+          "after_sha256": "c2796c8a0bedf84dc9491985bffa89f90b4a6291948e135fd0051ab6e1af82c8"
+        }
+      ],
+      "signature": "bPY74id5QKAWnOIdjP50FGgXIXwFVyn1Kn60f8y2js/seiuq+3h6HsL//44EQnpI3hyl1RlBpAE1PIaY2BQ9Iaiy/bbuboQ0shPMz3dDKm4UYA9QOXrYLRBjbFGhv1qq98wKigOdJnDJCpWJ1qeAMF15cHvz/Hgfci22qdjH1FH7WrsxXfcHgvsrmPVazcsrTQ0O2Zl0niLViQHZdL49VeVbW2KIYvLd2rfKSOYgLEZBGGjcc6tRthKFfWNX9Sba/+HiWiF1qgjVYghazw4vgduPOD050yjpOc6RYsnaIL2eQVJPfjcAknL5x8/TFuQ2/ztC6NOdBK3pvkRUtP7oxdfTDj0xIsIHPwunSgFikASkw1HW3Mt7uhQgSJraYQ81IxZcq+s7sNipoj+Ia0YrRGJ0pH6PH5TxwL5oFQefTuIBe90y+vYv9UjGifdQY3EW64ThXRHx/3hMsCQJFo7jMxMeBGbUzRqIBxN4g8KCvgQ7tYxgozotFYN48VIaov8U",
+      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/android-data-3273851-20261128.2/android-fr-1a515f472cf0c861.zip"
+    },
+    {
+      "id": "73f1b019f00faba6c422bb6649be6ed127e4d169b7fc7a3a3a67e16a0ad06a42",
+      "language": "pt-BR",
+      "revision": 2026112803,
+      "game_version_code": 2646220,
+      "content_build": {
+        "raw_base_package": "3273851",
+        "raw_streaming_package": "3273851",
+        "default_package": "3273851",
+        "static_package": "2929638"
+      },
+      "name": "Português (Brasil)",
+      "minimum_patcher": 401,
+      "size": 19457244,
+      "sha256": "f1cf5d71c50860218cba2da0dc816674048a01327c5c759ac0a7049c8bdd7a31",
+      "file_states": [
+        {
+          "path": "raw_base_package/BundleFiles/bl4qr5d222ly6qorx34moa.r",
+          "after_sha256": "7f93c16a06a7a5b611b6cae3cc06a1b4b7d850af65aad4e5c785481a19e85ddb"
+        },
+        {
+          "path": "raw_streaming_package/BundleFiles/siybjb4yevdjs7yv6iiw.r",
+          "after_sha256": "6de8ff4c7a22bd4e7b28f8846ff557d1ae469c148e82def14b81a84fd55ac19f"
+        },
+        {
+          "path": "default_package/BundleFiles/6rcbsfqwqnfjlvxnywvw.r",
+          "after_sha256": "ace8a6151a7a9c090a0a327ac5a369b8b10fa6a131e9a68758a41b8929aa89da"
+        },
+        {
+          "path": "static_package/BundleFiles/cpddloadingenglish.r",
+          "after_sha256": "7d7f75d1fcacd5b4668443ad10ae12f268fa6558b78eb5a7a9c4171eb8fb984e"
+        },
+        {
+          "path": "static_package/ManifestFiles/0release_static_package_2929638.bytes",
+          "after_sha256": "c25df574f2ce319b9225e13aac90937ba863c3671da2b41f53db55abb4e0e444"
+        },
+        {
+          "path": "static_package/ManifestFiles/0release_static_package_2929638.hash",
+          "after_sha256": "d97f21b393917a7acbb1960ee1356e83653f3bb94163b21d155d3281260f1642"
+        }
+      ],
+      "signature": "mkqsNUG01ohYB4xiWeXXm7w/oLxyEZ4ThUyi21hCHEsccW+LSjrh0CPta0ra9imEo8gqv20axOcc6+UpfqmVxO2F31adU92I3uHLERgj2bWDJjhCtxRE+R3ukr0ngWPFKMu3swt3CPicPAtAt+weEZsmljz/Qv4iuQW/IGeC6nFMV67boq4dZpfva9WuomLNJrIfYgO80SkZUDbs8HEJvlJRPeE2Ivyo7WRAUSfrh+93m5R1WQ4IrDZrdmCpSulXEKOwaXNnibSn1fRF/eBnuNN05UoKA0ZPSgl2mH8yg9UxGpWWefaHFDJ5BzV+Twy21NhYn8k8Zo+cemQCPwe38aNU6sqeElapdCq72D9EGj2zQvPMNdbsCRf4b7K4T93vZtwHHMPPBUOI4jDfCCGtLreNht42jeV6fS4JklBIsHwwLD4/wVQ4ASywm7Z7j9PFH6d6XUj1arhLKe667dt2ZjQ8O0dHfrFtpbFB9o69g7tYyM6G3iWtDiM2maGD65qF",
+      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/android-data-3273851-20261128.2/android-pt-BR-73f1b019f00faba6.zip"
+    },
+    {
       "id": "4a9b211b8ae879d04094fb235d49b9b9e51b12ced41406c56f54981f8410540a",
       "language": "en",
       "revision": 2026112801,
@@ -20,42 +152,6 @@
       "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/android-data-3273851-20261128/android-en-4a9b211b8ae879d0.zip"
     },
     {
-      "id": "3d82e4c4d41f4928f36584aa20907e64df04c90d25767d8bb95fd345083ba974",
-      "language": "es",
-      "revision": 2026112801,
-      "game_version_code": 2646220,
-      "content_build": {
-        "raw_base_package": "3273851",
-        "raw_streaming_package": "3273851",
-        "default_package": "3273851",
-        "static_package": "2929638"
-      },
-      "name": "Español",
-      "minimum_patcher": 400,
-      "size": 17060297,
-      "sha256": "7617afdf6b3a4cd776fecaeae7519ea23865471504d46fdf8eaefb5acba0b269",
-      "signature": "h+xJRoXHxYgMH2ASESkKZQEn7qqZkkuJXCN91jX68Os4Pp10T/j0zJFzeIrFKUykOSA0m+y1sgBdZxW6/ej0LT7xXFjmjly4bIKHK9qAacKWDrowiN5qbw0TU/vd2yywU7gHQZOJVV+IDlZixBqOZq1ElmmLqoPDNY6txgiDZtMPzpcrC+xt/6KPZWp9Lo+Ndt8okeNpRctdOXRPTSW3n9sL+XeRJMW7Pe98L+UftRABONsPweZu+QLXd3fX/XyNDPdDdVXXu/fHL9Sa1LU4C/ZZ2yzeG2FL8XulFFl9pDseI7WsHuKk5mrzeIkSkdXEmgIb/7ok6qSpPnCrwyX19OrP+aERjZToq55z81yAUPQ9ATvdlkWefoYiktXK/gIyO8L422zino2WGr4rWi2Csd+Nhd+ggAABokhXlY4X1z3rlJUMSRWTJb4M0UDZdwFz2LhWM0U8qnRM3h5qQI5RKYXxXA13feCRIG+Ng6pRjoYRI0VZXs+XtRySwvubTzIS",
-      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/android-data-3273851-20261128/android-es-3d82e4c4d41f4928.zip"
-    },
-    {
-      "id": "941fd64138de8f3e0d8db973fefc4cb768d4cd12f0e28861e021c2630ba31bef",
-      "language": "fr",
-      "revision": 2026112801,
-      "game_version_code": 2646220,
-      "content_build": {
-        "raw_base_package": "3273851",
-        "raw_streaming_package": "3273851",
-        "default_package": "3273851",
-        "static_package": "2929638"
-      },
-      "name": "Français",
-      "minimum_patcher": 400,
-      "size": 17292721,
-      "sha256": "df16c43447dc6eeb586c50d19b8c28b155e9275e0c84ae9039f4eac0d06ec87e",
-      "signature": "HNMyJxoCgTwkG2hKkgZRUkRgW4F55nOYP+OpH0wd3rDb9J3ClSi1YUGdI/Uf5sP1M9OPHpkTBfQiIOZrVNUNyOsCYKRlIqEqnUEZHCz073f0oRSz/IMNZOtZWTu033iZL7nokQGr1ULVgnnQUUsMe1+iT5qKUQ/3dpYzfq/ZsB/NTXzWVRtLW1bvHeKTBLvta0rsb7VX6gL82Y1w5JAW9RiC/70ui8WwTA/4n2h+f8yZBiFIj+CgmhI5a44IFeMpAtfUH/ke1q7SDMUJshTbl+HqLfXxiYCZvNizrcRiipFDNuaw6j3u7pGQTIwm2dTXYCJog5kYPS/g196VQH6r1sGS5RRnwwCq1j48UommrrKZEAuZk8kwl4a9iPrq7IYoXzrLbxhXrFNP2fr1cNwXpiMDy7l1e+PyS44my98a7JMcKj/1cuvi62MqGtO68TDyLjjTTxniZoIdX7gMS5oXILf1CZvTFbxbaOVaLGTD+TEJNny9oia9PGwwO1a1eaZ7",
-      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/android-data-3273851-20261128/android-fr-941fd64138de8f3e.zip"
-    },
-    {
       "id": "f375aae65403d6feb571449a2111725f15b11700d325f14d1ca86e44331e83af",
       "language": "id",
       "revision": 2026112801,
@@ -72,24 +168,6 @@
       "sha256": "9561e3600f29c8532d7fdea38d177363c1d96147953a50c17718ed838fde2738",
       "signature": "DHEM1jRXke/kLAlJGCniwJAySRmDN+ClwNX83gDzKRqXZn4iujWyxhhTLOAkPXMqmeUSASTo3xpNQreP4mpr4sWinYbs14J4AvSDLx2oQRijS03pQJUfoHkoN3e2tD9DEJe1GghzPQ8zGGcVrg725Up12kYzivrhXhCDbjYm2I054x/JN0CvZrIFoVug8RHHjbx5Q0oV3aFvbWo6fSY0J9OzSuk0S6svfN9XQ4XIixA7cMgmLeYGhXS2+kyodhupn3IAsZvI31ZJ0LJu7cU9fRrfFWBauNPxyIMkIGu2ynavpPGyymxJvuKjq6PQY4tJbdXuBOgGVX2KUUUiRv7djTPSAIF9FHW1okcz3h+e1HfKtssLHYTlbR1wW6n+QOUC1Xy8fjwyU6KevG1Z2MrjV+7iSj6apsK2k+kqPfvPefPGv5JSFwm9+YcIrd+/v7mvZyUX3g0YetdjmCVt0wg0SB7Ec6YYbUnIqGjNE74P7LKcLgfJZla3/NdPaIbP1LZ6",
       "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/android-data-3273851-20261128/android-id-f375aae65403d6fe.zip"
-    },
-    {
-      "id": "1671bc24babef26434cd76e6b36279a8f964b340e7fb21d73cc70d5ceea0b686",
-      "language": "pt-BR",
-      "revision": 2026112801,
-      "game_version_code": 2646220,
-      "content_build": {
-        "raw_base_package": "3273851",
-        "raw_streaming_package": "3273851",
-        "default_package": "3273851",
-        "static_package": "2929638"
-      },
-      "name": "Português (Brasil)",
-      "minimum_patcher": 400,
-      "size": 16750821,
-      "sha256": "3f91dfc4291947a1e23a0e1301e1fb4121d49b7cf592dfb0387f034161ba5548",
-      "signature": "jEyVkoQ4Ly2mvQF9eHO466eWE4Cr+3N9qzCsjC/67fUHIEyhaeWbQ/C9EwpBaQAiKMTlCj3ZB6y8M8x75WW4cpMDv/Lh8t6HZ6kBnTLByStjMsp0ZaqWyzVijwFPwPHJZL27a/3SDctegq1ofthSskq9DIYepKNye+6OvTMuCiRtkIy/Q9PAphiuvUH4pw9xykjgdP5AXHGEOqccfJrdQn3MsqA33lKzJGyproCGujMOuIkigOzP7+l1yBLLL6Yaq/e4g3+MFxfgsCLPBxjWkvBIKjcsJkS3a56TWAQPeLJ1YL1408AiRka28hQewkG67wFtDFUf0fA4/a835S/92sX0ptPBlTsb4eSef6tK6ou6nR4SJMKh1HkdKrpDt50QfKi6owR91oNxb/WmbHCyKVa27A1X85gDe4v/I07YEa+M0NqBIUUsy6quzanI/7gnTTkfujtoShdPvJw+6ploHOVMp5AcEk+n2a5iZW4ZSu1GsyhI8KhVkj4tOq+l7P/0",
-      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/android-data-3273851-20261128/android-pt-BR-1671bc24babef264.zip"
     }
   ]
 }
