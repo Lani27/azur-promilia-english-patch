@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "sequence": 1795802360170,
+  "sequence": 1795807809804,
   "state": "ready",
-  "minimum_patcher": "0.6.10",
-  "latest_patcher": "0.6.10",
+  "minimum_patcher": "0.6.11",
+  "latest_patcher": "0.6.11",
   "minimum_engine": 1,
   "required_capabilities": [
     "camera-distance-fade-v1",
@@ -29,38 +29,38 @@
     "unity-ui-layout-sizing-v1",
     "unity-ui-layout-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.10",
-  "reason": "Required recovery fix for game updates installed while patched, with official CDN archive repair and visible download/repair prompts. New or changed strings remain untranslated.",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.11",
+  "reason": "Required fix for validating compound numeric quantities in the refreshed English translations.",
   "data": {
-    "version": "camera-expanded-20261127-02",
-    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-camera-expanded-20261127-02/english-data.zip",
-    "size": 12088513,
-    "sha256": "63e7d60ed4b179cf1dcc4393701cc7324c62083f16809d27e8da3772ee4b0ca3",
+    "version": "content-3273853-20261128",
+    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-content-3273853-20261128/english-data.zip",
+    "size": 12093591,
+    "sha256": "d8cca6b8ad89cb36771fb6c235dc22bf19ec99a44c0ad1d1d75040d7817ffd44",
     "files": {
       "english.catalog.json.gz": {
-        "size": 12042993,
-        "sha256": "a02146ef3cf359996ef052b036d7ec811217c7bf3dd36af0480a4a0bce72c1b5"
+        "size": 12045672,
+        "sha256": "d4d25b30530a233019960b55e78de0b2d3eaaef3f91ad38c0d7a9240b435f58c"
       },
       "mapping.json": {
-        "size": 269508,
-        "sha256": "d0afdb236453e7fe86a70de3bd234b3a4bbd9e86b21f7c0b56f97362ce967d86"
+        "size": 257903,
+        "sha256": "7b6d83aa15e9b78ee63c8bf757a83240e19b2d8e018faed7ee63e90ebe24370b"
       }
     },
     "news": {
-      "size": 45408,
-      "sha256": "cb2253026d1da3112e420f807b1c121584c90f568ef47c65e297a4b5cf870b95"
+      "size": 55447,
+      "sha256": "64e38de13d3fbf5da54d1e20deb11d452677097b65145189ae44a9b70c5b23fa"
     }
   },
   "game_content": {
     "schema": 1,
     "launcher_version": "1.0.1",
     "packages": {
-      "default_package": 3219598,
-      "raw_base_package": 3219598,
+      "default_package": 3273853,
+      "raw_base_package": 3273853,
       "raw_nostreaming_package": 3219598,
-      "raw_streaming_package": 3219598,
+      "raw_streaming_package": 3273853,
       "static_package": 3075915
     },
-    "verified_at": "2026-11-25T07:54:45+00:00"
+    "verified_at": "2026-11-27T19:30:13+00:00"
   }
 }
