@@ -29,15 +29,17 @@ Community pack coverage against the **content-3273853-20261128** English catalog
 | Language | Translated | English fallback |
 | --- | ---: | ---: |
 | Bahasa Indonesia | 69,512 | 2,678 |
-| Français | 69,802 | 2,388 |
-| Español | 69,512 | 2,678 |
-| Português (Brasil) | 69,072 | 3,118 |
+| Français | 72,190 | 0 |
+| Español | 72,190 | 0 |
+| Português (Brasil) | 70,013 | 2,177 |
 
-The table above counts exact matches against the new English baseline. Historical submission totals below describe their earlier baseline; the refreshed contributor kits use the current 72,190-entry English base. Community entries with changed references use matching English until each language is updated.
+The table above counts exact matches against the current English baseline. The refreshed contributor kits use the same 72,190-entry English base. Community entries with changed references use matching English until each language is updated.
 
-Brazilian Portuguese originally added 71,445 accepted translations from reinhardwq. Its refreshed contributor kit retains 373 entries with changed references and 440 formatting conflicts for review.
+The latest Brazilian Portuguese update from reinhardwq adds 941 translated entries and corrects 6,829 existing targets. Formatting was corrected in 442 entries; 2,177 entries without supplied translations continue to use English.
 
-The latest French update completes 1,721 remaining targets and corrects 991 existing translations. Overlapping submissions in [#9](https://github.com/Lani27/azur-promilia-english-patch/issues/9) and [#11](https://github.com/Lani27/azur-promilia-english-patch/issues/11) were reviewed together; the validated #11 wording is used where they differ. The refreshed Spanish kit has 373 entries with changed references awaiting review. Missing or outdated community translations fall back to matching English. Changed Japanese source text stays Japanese until matching English is available; catalog coverage is not a guarantee of current-game coverage.
+French [#13](https://github.com/Lani27/azur-promilia-english-patch/issues/13) completes 2,388 pending entries. Spanish [#15](https://github.com/Lani27/azur-promilia-english-patch/issues/15) completes 2,678 pending entries and corrects 55 existing targets. Both now cover all 72,190 entries in the current kit. These Windows updates require patcher **v0.6.11 or newer**. Missing or outdated community translations fall back to matching English. Changed Japanese source text stays Japanese until matching English is available; catalog coverage is not a guarantee of current-game coverage.
+
+The same French, Spanish and Brazilian Portuguese submissions are available as [Android data updates](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/android-data-3273851-20261128.2). Use Android patcher **0.4.1 or newer**, select the language and tap **Apply**. Android coverage depends on exact matches with its own game resources.
 
 **Thai translation withdrawn:** The Thai packs, contributor files and update-channel entry have been removed following the redistribution report and submitter's acknowledgement in [issue #8](https://github.com/Lani27/azur-promilia-english-patch/issues/8#issuecomment-7229327535). Older patcher builds may still list Thai or retain previously downloaded copies. If Thai is installed, select English or another supported language and apply, or use **Restore Japanese**.
 
@@ -51,7 +53,7 @@ Downloads verify size, SHA-256 and language identity. A previously verified comp
 
 Download the **[translation kits and editable Japanese → English → target JSON files](CONTRIBUTING.md)** for a new language, Indonesian, French, Spanish or Brazilian Portuguese. **English is the maintained base**, updated by the maintainer; contributors translate or correct the target fields. Keep Japanese, English, context and entry IDs unchanged.
 
-The refreshed **[72,190-entry contributor kits](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/translator-files-20261128.6)** use the published `content-3273853-20261128` English base. Existing translations carry over where references match. Every language ZIP includes `REVIEW.html` and `review.json`, highlighting new or changed entries and preserving previous wording for review.
+The refreshed **[72,190-entry contributor kits](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/translator-files-20261128.7)** use the published `content-3273853-20261128` English base. Existing translations carry over where references match. Every language ZIP includes `REVIEW.html` and `review.json`, highlighting new or changed entries and preserving previous wording for review.
 
 Send a completed or partial file as a ZIP through **[Translation submission on GitHub](https://github.com/Lani27/azur-promilia-english-patch/issues/new?template=translation.yml)**. Small corrections can be submitted directly in the form. Include your language and kit version so changes can be merged without overwriting other work. Submissions are reviewed before a patcher language update is published.
 
