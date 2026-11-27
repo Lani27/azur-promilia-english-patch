@@ -1,19 +1,19 @@
-# Azur Promilia English — v0.6.10
+# Azur Promilia English — v0.6.11
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. Corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.10/AzurPromiliaEnglish.exe)** from the [v0.6.10 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.10).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.11/AzurPromiliaEnglish.exe)** from the [v0.6.11 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.11).
 
 1. Install any client/executable update through the official launcher, then close the game and official launcher. The patcher can download supported in-game content updates.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
 3. For English, select **Apply English**. For another language, choose **Settings → Game language → Français / Bahasa Indonesia / Español / Thai / Português (Brasil)**, wait for its download, then select **Apply translation**.
 4. Accept any game download or repair prompt. The patcher restores recognized patches, verifies official downloads, then reapplies your language and mods. Select **Launch game**; it checks live game content again before starting, alongside translation/news and patcher updates. It uses the game's normal graphics mode.
 
-**Corrupted files after a game update?** With v0.6.10, close the game and launcher, press **Apply English / Apply translation**, then accept **Repair and continue**. Keep the patcher's recovery files. If it specifically reports an interrupted patch transaction, use **Recover interrupted patch** first, then Apply again.
+**Corrupted files after a game update?** With v0.6.11, close the game and launcher, press **Apply English / Apply translation**, then accept **Repair and continue**. Keep the patcher's recovery files. If it specifically reports an interrupted patch transaction, use **Recover interrupted patch** first, then Apply again.
 
-The published data contains **72,216 game/interface translation entries** and **23 news article bodies**. On verified game build **3273853**, **69,834 translations match** and **2,356 new or changed strings remain Japanese** until matching translations are published. This includes 109 existing messages in the separate update-screen language file; loading tooltips have been confirmed in English in-game. News list/header titles remain Japanese. Optional English graphics now cover **84 approved images**, including five achievement-book titles and 79 additional UI graphics. Five larger approved replacements and other unsupported Japanese image lettering remain unchanged. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
+The [published English data](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/data-content-3273853-20261128) contains **72,190 supported game/interface translations** and **25 news article bodies**. **234 new and 2,122 changed strings** were translated and reviewed for game content **3273853**; all 72,190 supported strings validate and match the verified source, with zero missing translations in that set. This data requires **patcher 0.6.11** for numeric-quantity validation and downloads separately from the executable. Loading tooltips have been confirmed in English in-game; news list/header titles remain Japanese. Optional English graphics cover **84 approved images**. Five larger approved replacements and unsupported Japanese image lettering remain unchanged. New or changed source strings from future updates remain untranslated until matching English is available. Not every scene or text layout has been tested.
 
 ## Game languages
 
@@ -23,15 +23,17 @@ Additional GitHub contributors: **French [pedrokarim](https://github.com/pedroka
 
 English, Français, Bahasa Indonesia, Español, ไทย and Português (Brasil) use the same patcher. Thai requires **v0.6.6 or newer** for its included font support. Version 0.6.0 and newer download the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate language-specific patcher or manual JSON installation is needed.
 
-Community pack coverage against the published English catalog (72,216 entries):
+Community pack coverage against the **content-3273853-20261128** English catalog (72,190 entries):
 
 | Language | Translated | English fallback |
 | --- | ---: | ---: |
-| Bahasa Indonesia | 71,925 | 291 |
-| Français | 72,216 | 0 |
-| Español | 71,925 | 291 |
-| ไทย | 72,216 | 0 |
-| Português (Brasil) | 71,445 | 771 |
+| Bahasa Indonesia | 69,512 | 2,678 |
+| Français | 69,802 | 2,388 |
+| Español | 69,512 | 2,678 |
+| ไทย | 69,802 | 2,388 |
+| Português (Brasil) | 69,072 | 3,118 |
+
+The table above counts exact matches against the new English baseline. The submission totals and contributor review counts below describe their earlier baseline; community entries with changed references use matching English until each language is updated.
 
 Brazilian Portuguese adds 71,445 accepted translations from reinhardwq; 291 changed English references and 480 formatting conflicts are retained in its contributor review kit.
 
@@ -47,13 +49,26 @@ Downloads verify size, SHA-256 and language identity. A previously verified comp
 
 Download the **[translation kits and editable Japanese → English → target JSON files](CONTRIBUTING.md)** for a new language, Indonesian, French, Spanish, Thai or Brazilian Portuguese. **English is the maintained base**, updated by the maintainer; contributors translate or correct the target fields. Keep Japanese, English, context and entry IDs unchanged.
 
+The existing [contributor kits](CONTRIBUTING.md) use the previous patch's English baseline, `camera-expanded-20261127-02`. They have not been refreshed for the newly published `content-3273853-20261128` English data. Keep the reference fields in your downloaded kit unchanged; submissions are checked against the current baseline during review.
+
 Send a completed or partial file as a ZIP through **[Translation submission on GitHub](https://github.com/Lani27/azur-promilia-english-patch/issues/new?template=translation.yml)**. Small corrections can be submitted directly in the form. Include your language and kit version so changes can be merged without overwriting other work. Submissions are reviewed before a patcher language update is published.
 
 ## Updates
 
 English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations, supported graphics and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
 
-**New in v0.6.10:**
+**New in v0.6.11:**
+
+- Faster full archive verification with up to four readers, with progress showing bytes checked and scan speed. Checksum checks still catch same-size corruption.
+- Mod checkboxes with **Install selected / Uninstall selected** buttons. Selected changes run together, preserving translated text and unselected mods.
+- A fix for validating equivalent compound numeric quantities in translations.
+- A separate English data update: **234 new and 2,122 changed translations**, all **72,190 supported strings** validated, and refreshed news. The executable contains no bundled translation catalog.
+
+Use **Check for updates → Update and restart**, then **Apply English / Apply translation**. Corrupted installations should accept **Repair and continue** when prompted.
+
+Validation: 299 Rust tests and 69 Python tests passed; 36 optional Rust tests were skipped. The packaged executable passed its read-only audit and temporary-copy installation, batch mod changes, reapplication and exact restoration. These checks did not modify the live game.
+
+**Also included from v0.6.10:**
 
 - Recovers updates installed while English was still applied. Restore and recovery skip retired paths, restore verified surviving patches and preserve newer game files.
 - **Apply English** and **Launch game** check the live public JP content service. Approved content updates restore recognized patches, download verified official files, then reapply the selected language and mods.
@@ -115,7 +130,7 @@ For the v0.6.3 dialogue corrections, close the game and launcher, then select **
 - Better fitting gacha, gift and mission/dialogue-button text, with layout corrections across 26 interface assets.
 - Clearer instructions for missing or empty resources: finish the remaining downloads using the **wrench-and-hammer icon on the title screen**, then close the game and launcher before applying again.
 
-Select **Apply English** to update an existing installation. Enabled English graphics update automatically; otherwise, use **Mods → English Graphic Replacement → Install**. The v0.6.2 artwork support required an executable update once; later compatible artwork updates can be delivered as data.
+Select **Apply English** to update an existing installation. Enabled English graphics update automatically; otherwise, use **Mods → tick English Graphic Replacement → Install selected**. The v0.6.2 artwork support required an executable update once; later compatible artwork updates can be delivered as data.
 
 **Changes since v0.5.3:** 3,551 corrected English entries, reviewed terminology and ruby annotations, layout corrections across 22 interface assets, six additional news bodies and five optional achievement-book title graphics. Layout changes cover comparison/recommendation buttons, Kibo labels and values, role badges, Journey tasks, event rewards and observation banners.
 
@@ -148,7 +163,7 @@ New binary formats or unsupported decoder changes may require another executable
 
 ## Mods
 
-Open the **Mods** tab and use each feature's **Install** or **Uninstall** button. Mods can be used before or after applying English and start off by default.
+Open the **Mods** tab, tick the features you want to change, then choose **Install selected** or **Uninstall selected** at the bottom. Checkboxes select the action's targets; installed status is shown separately. Selected changes run together while preserving translated text and unselected mods. Mods can be used before or after applying English and start off by default.
 
 The **motion-sickness mods** group contains three independent options:
 
