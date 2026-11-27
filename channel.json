@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "sequence": 1795773691398,
+  "sequence": 1795783959235,
   "state": "ready",
   "minimum_patcher": "0.6.2",
-  "latest_patcher": "0.6.4",
+  "latest_patcher": "0.6.6",
   "minimum_engine": 1,
   "required_capabilities": [
     "camera-distance-fade-v1",
@@ -28,7 +28,7 @@
     "unity-ui-layout-sizing-v1",
     "unity-ui-layout-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.4",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.6",
   "reason": "Required support for approved English sprites, atlas graphics and exact restoration.",
   "data": {
     "version": "dialogue-variants-20261127-01",
