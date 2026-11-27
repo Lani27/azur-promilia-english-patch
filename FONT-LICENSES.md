@@ -1,9 +1,9 @@
 # Font licenses
 
-The Thai language pack includes glyph atlas additions derived from the official
+The withdrawn Thai language packs included glyph atlas additions derived from the official
 [LINE Seed Sans TH](https://seed.line.me/index_th.html) Game Bold font.
-The font is provided under the SIL Open Font License 1.1. The patcher adds Thai
-glyphs locally; original game font bundles are not distributed.
+This license notice is retained for previously distributed copies. The font is
+provided under the SIL Open Font License 1.1; original game font bundles were not distributed.
 
 © LY Corporation
 
