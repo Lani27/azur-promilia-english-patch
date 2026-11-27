@@ -1,0 +1,51 @@
+name: Translation submission
+description: Submit a new language, an updated translation file, or a wording correction.
+title: "[Translation] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use the [contribution guide and current kits](https://github.com/Lani27/azur-promilia-english-patch/blob/main/CONTRIBUTING.md).
+        English is maintained by the maintainer. Edit targets and notes; keep Japanese, English, IDs and context unchanged.
+        Upload the whole edited JSON in a ZIP, or describe a small correction below. Partial contributions are welcome.
+  - type: dropdown
+    id: submission-type
+    attributes:
+      label: Submission type
+      options:
+        - Update an existing language
+        - Add a new language
+        - Correct a translation or report an English reference error
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language name and code
+      placeholder: "Français (fr), Bahasa Indonesia (id), or your new language"
+    validations:
+      required: true
+  - type: input
+    id: kit-version
+    attributes:
+      label: Kit release or patcher version
+      description: Use the kit release for file submissions. For an in-game correction, give your patcher/language-pack version if known.
+      placeholder: "translator-files-20261127.1"
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Translation file or correction details
+      description: Drag a ZIP (up to 25 MB) into this box, or paste a download link. For a small correction, include the entry ID, current text, proposed text and context. If the ID is unknown, give the exact wording and where it appears.
+      placeholder: "Attach your ZIP here, or describe the correction."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Optional summary of changed entries, terminology choices, or in-game testing.
+  - type: markdown
+    attributes:
+      value: "Submissions are public. The maintainer reviews, validates and merges contributions before publishing a patcher language update."
