@@ -1,23 +1,23 @@
-# Azur Promilia English — v0.6.2
+# Azur Promilia English — v0.6.3
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.2/AzurPromiliaEnglish.exe)** from the [v0.6.2 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.2).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.3/AzurPromiliaEnglish.exe)** from the [v0.6.3 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.3).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game and official launcher.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
-3. For English, select **Apply English**. For Indonesian, choose **Settings → Game language → Bahasa Indonesia**, wait for its download, then select **Apply translation**.
+3. For English, select **Apply English**. For French or Indonesian, choose **Settings → Game language → Français / Bahasa Indonesia**, wait for its download, then select **Apply translation**.
 4. Select **Launch game**. The patcher checks for updates first and prompts when newer translation/news data or a patcher release is available. It uses the game's normal graphics mode.
 
 The current data contains **72,216 matching game/interface translation entries** and **23 news article bodies**. This includes 109 existing messages in the separate update-screen language file; loading tooltips have been confirmed in English in-game. News list/header titles remain Japanese. Optional English graphics now cover **84 approved images**, including five achievement-book titles and 79 additional UI graphics. Five larger approved replacements and other unsupported Japanese image lettering remain unchanged. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
 
 ## Game languages
 
-English and Bahasa Indonesia use the same patcher. Version 0.6.0 downloads the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate Indonesian patcher or manual JSON installation is needed.
+English, Français and Bahasa Indonesia use the same patcher. Version 0.6.0 and newer download the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate language-specific patcher or manual JSON installation is needed.
 
-The current Indonesian pack supplies **72,216 validated entries**. The 334 previously rejected entries have been corrected, and all entries match the current English catalog. Changed Japanese text or English references also fall back to the current English until the community translation is updated. News stays English; English-specific graphics and layout overrides are excluded from Indonesian text. Indonesian translation quality, fonts and layout still need in-game review.
+The current French pack supplies **69,682 entries**. With the v0.6.3 English corrections, **69,391 match and 2,825 use English fallback**, including 291 entries whose English references changed. The Indonesian pack supplies **72,216 validated entries**; the 334 previously rejected entries have been corrected. Changed Japanese text or English references fall back to current English until the community translation is updated. News stays English; English-specific graphics and layout overrides are excluded from community-language text. Translation quality, fonts and layout still need in-game review.
 
 Downloads verify size, SHA-256 and language identity. A previously verified compatible pack remains usable offline. Downloading never changes game files until **Apply translation** or an accepted pre-launch update. Select English and apply to switch back, or use **Restore Japanese** for exact originals.
 
@@ -27,6 +27,17 @@ Downloads verify size, SHA-256 and language identity. A previously verified comp
 
 English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations, supported graphics and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
 
+**Changes since v0.6.2:**
+
+- **Update and restart** downloads, verifies and replaces the patcher, then reopens it. Install v0.6.3 manually once; subsequent executable updates can use this button. Settings, recovery data and mods stay in place.
+- **Apply** automatically refreshes missing or damaged translation data once before changing game files. Failed recovery reports a specific, sanitized data error.
+- Missing patcher data folders are recreated automatically. **Change folder** and **Use default location** also work when the previous folder or drive is gone. Deleted recovery backups cannot be recreated.
+- Recognized leftover CPDD full-text/UID helpers can be backed up and recreated after confirmation, without the old game folder or receipt. Unknown or official hotfix packages remain protected. Other game copies sharing the helper cache may need their patch reapplied.
+- **291 reviewed dialogue corrections** preserve separate text variants, fixing repeated/merged dialogue in affected entries. Future scans check the same separators.
+- **Français** is available under **Settings → Game language**. Missing or outdated French entries use current English.
+
+Download v0.6.3, close the game and launcher, then select **Apply English** or **Apply translation**. The dialogue corrections also arrive as compatible data updates for v0.6.2. Existing mods, graphics and news are preserved. The corrected dialogue scene still needs in-game visual confirmation.
+
 **Changes since v0.6.0:**
 
 - 79 additional approved English graphics in **English Graphic Replacement**, for 84 total.
@@ -34,7 +45,7 @@ English corrections, community translations, glossary changes, compatible new ta
 - Better fitting gacha, gift and mission/dialogue-button text, with layout corrections across 26 interface assets.
 - Clearer instructions for missing or empty resources: finish the remaining downloads using the **wrench-and-hammer icon on the title screen**, then close the game and launcher before applying again.
 
-Download v0.6.2 and select **Apply English** to update an existing installation. Enabled English graphics update automatically; otherwise, use **Mods → English Graphic Replacement → Install**. This release needs the new executable once; later compatible artwork updates can be delivered as data.
+Select **Apply English** to update an existing installation. Enabled English graphics update automatically; otherwise, use **Mods → English Graphic Replacement → Install**. The v0.6.2 artwork support required an executable update once; later compatible artwork updates can be delivered as data.
 
 **Changes since v0.5.3:** 3,551 corrected English entries, reviewed terminology and ruby annotations, layout corrections across 22 interface assets, six additional news bodies and five optional achievement-book title graphics. Layout changes cover comparison/recommendation buttons, Kibo labels and values, role badges, Journey tasks, event rewards and observation banners.
 
@@ -55,11 +66,11 @@ Download v0.6.2 and select **Apply English** to update an existing installation.
 - Reviewed camera compatibility rules can arrive through data updates when the existing engine supports them.
 - New optional **Hide HUD UID** mod, off by default, with independent Install/Uninstall controls.
 
-Download v0.6.2 and apply the selected language to use the current patcher. If full-text support is skipped, follow the reported recovery steps and apply again. Compatible future translation, news, layout and graphic changes remain data updates. English translation and news counts are unchanged from v0.5.9.
+Download v0.6.3 and apply the selected language to use the current patcher. If full-text support is skipped, follow the reported recovery steps and apply again. Compatible future translation, news, layout and graphic changes remain data updates. English translation and news counts are unchanged from v0.5.9.
 
 Automated checks cover archive readback, temporary-copy install/reapply, independent mod removal, byte-exact restoration and missing/modified camera scenarios. The new HUD UID option still needs an in-game check across scene changes; not every long title is guaranteed to fit every resolution.
 
-Before launch, **Update and launch** applies changed game data or refreshes news data. A newer optional executable offers a download; a required compatibility/fix release blocks launch until updated. If the online check cannot finish, the patcher asks before using verified saved data.
+Before launch, **Update and launch** applies changed game data or refreshes news data. A newer executable offers **Update and restart**; a required compatibility/fix release blocks launch until updated. If the online check cannot finish, the patcher asks before using verified saved data.
 
 New binary formats or unsupported decoder changes may require another executable. Data packages cannot install executable code. Each translation must match the current Japanese source and context; old English is never selected by ID alone. News bodies are checked against fresh official article content before use.
 
