@@ -8,7 +8,7 @@ Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-eng
 
 1. Install any client/executable update through the official launcher, then close the game and official launcher. The patcher can download supported in-game content updates.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
-3. For English, select **Apply English**. For another language, choose **Settings → Game language → Français / Bahasa Indonesia / Español / Thai**, wait for its download, then select **Apply translation**.
+3. For English, select **Apply English**. For another language, choose **Settings → Game language → Français / Bahasa Indonesia / Español / Thai / Português (Brasil)**, wait for its download, then select **Apply translation**.
 4. Accept any game download or repair prompt. The patcher restores recognized patches, verifies official downloads, then reapplies your language and mods. Select **Launch game**; it checks live game content again before starting, alongside translation/news and patcher updates. It uses the game's normal graphics mode.
 
 **Corrupted files after a game update?** With v0.6.10, close the game and launcher, press **Apply English / Apply translation**, then accept **Repair and continue**. Keep the patcher's recovery files. If it specifically reports an interrupted patch transaction, use **Recover interrupted patch** first, then Apply again.
@@ -18,9 +18,10 @@ The published data contains **72,216 game/interface translation entries** and **
 ## Game languages
 
 Community translation contributors (Discord): **Indonesian (rukathebest)** and **French (tonax.)**.
+Brazilian Portuguese contributor: **reinhardwq**.
 Additional GitHub contributors: **French [pedrokarim](https://github.com/pedrokarim)**, **Spanish [KarloZ7715](https://github.com/KarloZ7715)** and **Thai [CXZP](https://github.com/CXZP)**.
 
-English, Français, Bahasa Indonesia, Español and ไทย use the same patcher. Thai requires **v0.6.6 or newer** for its included font support. Version 0.6.0 and newer download the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate language-specific patcher or manual JSON installation is needed.
+English, Français, Bahasa Indonesia, Español, ไทย and Português (Brasil) use the same patcher. Thai requires **v0.6.6 or newer** for its included font support. Version 0.6.0 and newer download the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate language-specific patcher or manual JSON installation is needed.
 
 Community pack coverage against the published English catalog (72,216 entries):
 
@@ -30,6 +31,9 @@ Community pack coverage against the published English catalog (72,216 entries):
 | Français | 70,495 | 1,721 |
 | Español | 71,925 | 291 |
 | ไทย | 63,686 | 8,530 |
+| Português (Brasil) | 71,445 | 771 |
+
+Brazilian Portuguese adds 71,445 accepted translations from reinhardwq; 291 changed English references and 480 formatting conflicts are retained in its contributor review kit.
 
 The French update adds 1,104 interface translations. Spanish has 291 lines awaiting review after English changes. Thai has 8,528 submitted lines held for formatting corrections and two unfinished lines; the editable kit preserves their wording for contributors. Missing or outdated community translations fall back to matching English. Changed Japanese source text stays Japanese until matching English is available; catalog coverage is not a guarantee of current-game coverage.
 
@@ -41,7 +45,7 @@ Downloads verify size, SHA-256 and language identity. A previously verified comp
 
 ## Contribute translations
 
-Download the **[translation kits and editable Japanese → English → target JSON files](CONTRIBUTING.md)** for a new language, Indonesian, French, Spanish or Thai. **English is the maintained base**, updated by the maintainer; contributors translate or correct the target fields. Keep Japanese, English, context and entry IDs unchanged.
+Download the **[translation kits and editable Japanese → English → target JSON files](CONTRIBUTING.md)** for a new language, Indonesian, French, Spanish, Thai or Brazilian Portuguese. **English is the maintained base**, updated by the maintainer; contributors translate or correct the target fields. Keep Japanese, English, context and entry IDs unchanged.
 
 Send a completed or partial file as a ZIP through **[Translation submission on GitHub](https://github.com/Lani27/azur-promilia-english-patch/issues/new?template=translation.yml)**. Small corrections can be submitted directly in the form. Include your language and kit version so changes can be merged without overwriting other work. Submissions are reviewed before a patcher language update is published.
 
