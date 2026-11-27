@@ -9,18 +9,18 @@ instead of editing the English reference yourself.
 
 ## Download an editable kit
 
-Current kit release: **[translator-files-20261127.1](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/translator-files-20261127.1)**.
-English base: `approved-artwork-20261127-01`. Each file contains 72,216 entries.
+Current kit release: **[translator-files-20261127.3](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/translator-files-20261127.3)**.
+English base: `dialogue-variants-20261127-01`. Each file contains 72,216 entries.
 
 | Language | ZIP with instructions | Editable JSON | Current coverage |
 | --- | --- | --- | --- |
-| Start a new language | [Blank kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.1/translator-kit.zip) | [translations.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.1/translations.json) | All targets blank |
-| Bahasa Indonesia | [Indonesian kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.1/translations.id.zip) | [translations.id.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.1/translations.id.json) | 72,216 filled |
-| Français | [French kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.1/translations.fr.zip) | [translations.fr.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.1/translations.fr.json) | 69,682 filled; 2,534 blank |
+| Start a new language | [Blank kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.3/translator-kit.zip) | [translations.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.3/translations.json) | All targets blank |
+| Bahasa Indonesia | [Indonesian kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.3/translations.id.zip) | [translations.id.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.3/translations.id.json) | 71,923 filled; 293 to review |
+| Français | [French kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.3/translations.fr.zip) | [translations.fr.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.3/translations.fr.json) | 69,391 filled; 2,825 to translate/review |
 
 Choose a prefilled kit when your language already exists. These large JSON files
 are hosted as release downloads. You can download them without a GitHub account;
-sign in to GitHub to submit an issue. The ZIP includes the full [translator instructions](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.1/TRANSLATING.md).
+sign in to GitHub to submit an issue. The ZIP includes the full [translator instructions](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261127.3/TRANSLATING.md).
 
 ## Translate or correct text
 
@@ -54,9 +54,11 @@ downloads and update checks.
 The maintainer refreshes kits against the latest maintained English and publishes
 a new version here. Existing translations carry over when their references still
 match. Refresh review reports identify new, changed, missing or invalid entries
-and retain previous wording for review. The current initial download contains
-the JSON and instructions; later refresh kits may also include `REVIEW.html` and
-`review.json` as described in the translator instructions.
+and retain previous wording for review. The current Indonesian and French ZIPs include `REVIEW.html` and
+`review.json`: **291 English changes** are highlighted in each language, with
+previous translations preserved. Indonesian also has **2 formatting errors** to
+review; French has **2,534 other untranslated entries**. Open `REVIEW.html` first;
+it shows the first 1,000 review entries, and `review.json` contains the full list.
 
 If you have already started work, submit it with its original kit version first.
 Do not replace reference fields or overwrite your work with a newer kit. Only your
