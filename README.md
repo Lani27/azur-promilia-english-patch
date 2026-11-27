@@ -23,6 +23,12 @@ Downloads verify size, SHA-256 and language identity. A previously verified comp
 
 **Import language pack** is available for local testing and pauses online updates for that language. **Use online language updates** resumes the hosted releases.
 
+## Contribute translations
+
+Download the **[translation kits and editable Japanese → English → target JSON files](CONTRIBUTING.md)** for a new language, Indonesian or French. **English is the maintained base**, updated by the maintainer; contributors translate or correct the target fields. Keep Japanese, English, context and entry IDs unchanged.
+
+Send a completed or partial file as a ZIP through **[Translation submission on GitHub](https://github.com/Lani27/azur-promilia-english-patch/issues/new?template=translation.yml)**. Small corrections can be submitted directly in the form. Include your language and kit version so changes can be merged without overwriting other work. Submissions are reviewed before a patcher language update is published.
+
 ## Updates
 
 English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations, supported graphics and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
@@ -108,6 +114,6 @@ The patcher verifies the Japanese client's identity before checking compatibilit
 
 ## Distribution
 
-This repository contains only this README, the update channel and the community-language index. Releases contain the executable, checksums, English/mapping/news data and prepared community-language packs, never complete game archives or maintainer source, API tools, credentials or translation memory. Original game files and recovery records stay on each user's computer.
+This repository contains player instructions, contribution instructions, the translation submission form, the update channel and the community-language index. Player releases contain the executable, checksums, English/mapping/news data and prepared community-language packs. Separate contributor releases contain editable Japanese/English/target JSON files, review reports and instructions. No complete game archives, maintainer source, API tools, credentials or translation memory are published. Original game files and recovery records stay on each user's computer.
 
 Downloads use this repository's HTTPS channel and release assets with SHA-256 and size verification. The channel is not separately signed; the publishing GitHub account is the update trust boundary. Game-content checks compare installed manifests with the published verified build and do not claim live authenticated server freshness.
