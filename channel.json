@@ -1,12 +1,13 @@
 {
   "schema": 1,
-  "sequence": 1795783959236,
+  "sequence": 1795784729960,
   "state": "ready",
-  "minimum_patcher": "0.6.2",
+  "minimum_patcher": "0.6.6",
   "latest_patcher": "0.6.6",
   "minimum_engine": 1,
   "required_capabilities": [
     "camera-distance-fade-v1",
+    "camera-npc-mount-pitch-v1",
     "declarative-mapping-v1",
     "declarative-static-ui-locations-v1",
     "gameplay-label-wrap-v1",
@@ -29,20 +30,20 @@
     "unity-ui-layout-v1"
   ],
   "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.6",
-  "reason": "Required support for approved English sprites, atlas graphics and exact restoration.",
+  "reason": "Required support for NPC, mounted and close-up no-fade cameras with the wider pitch range.",
   "data": {
-    "version": "dialogue-variants-20261127-01",
-    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-dialogue-variants-20261127-01/english-data.zip",
-    "size": 12087758,
-    "sha256": "8cd6dc5ab058042c5b3ca0c979b76ac11163c5b94a896f9800084663dd57f0d2",
+    "version": "camera-expanded-20261127-02",
+    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-camera-expanded-20261127-02/english-data.zip",
+    "size": 12088513,
+    "sha256": "63e7d60ed4b179cf1dcc4393701cc7324c62083f16809d27e8da3772ee4b0ca3",
     "files": {
       "english.catalog.json.gz": {
         "size": 12042993,
         "sha256": "a02146ef3cf359996ef052b036d7ec811217c7bf3dd36af0480a4a0bce72c1b5"
       },
       "mapping.json": {
-        "size": 254975,
-        "sha256": "e0511c6771fdef5af6c04ca4eb51d85f82371601f081434b38147537a537ec50"
+        "size": 269508,
+        "sha256": "d0afdb236453e7fe86a70de3bd234b3a4bbd9e86b21f7c0b56f97362ce967d86"
       }
     },
     "news": {
