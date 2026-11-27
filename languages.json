@@ -22,11 +22,11 @@
         "community-language-v1",
         "hosted-language-updates-v1"
       ],
-      "revision": 1,
-      "sha256": "58a4802796ea10aa5a2972bfa5d00baecb70b4784046d2af74b10614bd4df6a9",
-      "size": 11568896,
-      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/language-fr-20261127.1/fr.language-pack.json.gz",
-      "version": "20261127.1"
+      "revision": 2,
+      "sha256": "23a1b4f5b93aac8a40589fef614169e1a7fa0b2fc5bac30052096d17e7fafa24",
+      "size": 11615536,
+      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/language-fr-20261127.2/fr.language-pack.json.gz",
+      "version": "20261127.2"
     },
     "id": {
       "minimum_engine": 1,
@@ -44,5 +44,5 @@
     }
   },
   "schema": 1,
-  "sequence": 1795777898023
+  "sequence": 1795777900858
 }
