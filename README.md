@@ -19,7 +19,7 @@ The published data contains **72,216 game/interface translation entries** and **
 
 Community translation contributors (Discord): **Indonesian (rukathebest)** and **French (tonax.)**.
 Brazilian Portuguese contributor: **reinhardwq**.
-Additional GitHub contributors: **French [pedrokarim](https://github.com/pedrokarim)**, **Spanish [KarloZ7715](https://github.com/KarloZ7715)** and **Thai [CXZP](https://github.com/CXZP)**.
+Additional GitHub contributors: **French [pedrokarim](https://github.com/pedrokarim) and [TonySanchezD](https://github.com/TonySanchezD)**, **Spanish [KarloZ7715](https://github.com/KarloZ7715)** and **Thai [CXZP](https://github.com/CXZP)**.
 
 English, Français, Bahasa Indonesia, Español, ไทย and Português (Brasil) use the same patcher. Thai requires **v0.6.6 or newer** for its included font support. Version 0.6.0 and newer download the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate language-specific patcher or manual JSON installation is needed.
 
@@ -28,14 +28,14 @@ Community pack coverage against the published English catalog (72,216 entries):
 | Language | Translated | English fallback |
 | --- | ---: | ---: |
 | Bahasa Indonesia | 71,925 | 291 |
-| Français | 70,495 | 1,721 |
+| Français | 72,216 | 0 |
 | Español | 71,925 | 291 |
-| ไทย | 63,686 | 8,530 |
+| ไทย | 71,603 | 613 |
 | Português (Brasil) | 71,445 | 771 |
 
 Brazilian Portuguese adds 71,445 accepted translations from reinhardwq; 291 changed English references and 480 formatting conflicts are retained in its contributor review kit.
 
-The French update adds 1,104 interface translations. Spanish has 291 lines awaiting review after English changes. Thai has 8,528 submitted lines held for formatting corrections and two unfinished lines; the editable kit preserves their wording for contributors. Missing or outdated community translations fall back to matching English. Changed Japanese source text stays Japanese until matching English is available; catalog coverage is not a guarantee of current-game coverage.
+The latest French update completes 1,721 remaining targets and corrects 991 existing translations. Overlapping submissions in [#9](https://github.com/Lani27/azur-promilia-english-patch/issues/9) and [#11](https://github.com/Lani27/azur-promilia-english-patch/issues/11) were reviewed together; the validated #11 wording is used where they differ. Spanish has 291 lines awaiting review after English changes. The corrected Thai submission in [#8](https://github.com/Lani27/azur-promilia-english-patch/issues/8) adds 7,917 accepted entries; 613 still need formatting corrections, with the submitted wording retained for review. Missing or outdated community translations fall back to matching English. Changed Japanese source text stays Japanese until matching English is available; catalog coverage is not a guarantee of current-game coverage.
 
 Thai includes glyph additions generated from **LINE Seed Sans TH**, under the [SIL Open Font License 1.1](FONT-LICENSES.md). They extend the gameplay and startup fallback atlases while preserving existing glyphs. Use v0.6.6 or newer to switch languages or restore after applying Thai. Installation, switching languages and restoration are verified on a temporary game copy; Thai combining marks, wrapping and translation quality still need in-game review. News stays English; English-specific graphics and layout overrides are excluded from community-language text.
 
