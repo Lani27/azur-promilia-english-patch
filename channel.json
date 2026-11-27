@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "sequence": 1795791432377,
+  "sequence": 1795802360170,
   "state": "ready",
-  "minimum_patcher": "0.6.8",
-  "latest_patcher": "0.6.8",
+  "minimum_patcher": "0.6.10",
+  "latest_patcher": "0.6.10",
   "minimum_engine": 1,
   "required_capabilities": [
     "camera-distance-fade-v1",
@@ -29,8 +29,8 @@
     "unity-ui-layout-sizing-v1",
     "unity-ui-layout-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.8",
-  "reason": "Compatibility fix for reapplying translations after official game updates. Retired archive paths no longer block Apply; new or changed strings remain untranslated.",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.10",
+  "reason": "Required recovery fix for game updates installed while patched, with official CDN archive repair and visible download/repair prompts. New or changed strings remain untranslated.",
   "data": {
     "version": "camera-expanded-20261127-02",
     "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-camera-expanded-20261127-02/english-data.zip",
