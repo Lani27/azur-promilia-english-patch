@@ -1,17 +1,17 @@
-# Azur Promilia English — v0.6.7
+# Azur Promilia English — v0.6.8
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. Corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.7/AzurPromiliaEnglish.exe)** from the [v0.6.7 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.7).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.8/AzurPromiliaEnglish.exe)** from the [v0.6.8 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.8).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game and official launcher.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
 3. For English, select **Apply English**. For another language, choose **Settings → Game language → Français / Bahasa Indonesia / Español / Thai**, wait for its download, then select **Apply translation**.
 4. Select **Launch game**. The patcher checks for updates first and prompts when newer translation/news data or a patcher release is available. It uses the game's normal graphics mode.
 
-The current data contains **72,216 matching game/interface translation entries** and **23 news article bodies**. This includes 109 existing messages in the separate update-screen language file; loading tooltips have been confirmed in English in-game. News list/header titles remain Japanese. Optional English graphics now cover **84 approved images**, including five achievement-book titles and 79 additional UI graphics. Five larger approved replacements and other unsupported Japanese image lettering remain unchanged. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
+The published data contains **72,216 game/interface translation entries** and **23 news article bodies**. On verified game build **3273853**, **69,834 translations match** and **2,356 new or changed strings remain Japanese** until matching translations are published. This includes 109 existing messages in the separate update-screen language file; loading tooltips have been confirmed in English in-game. News list/header titles remain Japanese. Optional English graphics now cover **84 approved images**, including five achievement-book titles and 79 additional UI graphics. Five larger approved replacements and other unsupported Japanese image lettering remain unchanged. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
 
 ## Game languages
 
@@ -20,7 +20,7 @@ Additional GitHub contributors: **French [pedrokarim](https://github.com/pedroka
 
 English, Français, Bahasa Indonesia, Español and ไทย use the same patcher. Thai requires **v0.6.6 or newer** for its included font support. Version 0.6.0 and newer download the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate language-specific patcher or manual JSON installation is needed.
 
-Current matching translations, out of 72,216 entries:
+Community pack coverage against the published English catalog (72,216 entries):
 
 | Language | Translated | English fallback |
 | --- | ---: | ---: |
@@ -29,7 +29,7 @@ Current matching translations, out of 72,216 entries:
 | Español | 71,925 | 291 |
 | ไทย | 63,686 | 8,530 |
 
-The French update adds 1,104 interface translations. Spanish has 291 lines awaiting review after English changes. Thai has 8,528 submitted lines held for formatting corrections and two unfinished lines; the editable kit preserves their wording for contributors. Changed Japanese text or English references use current English until reviewed.
+The French update adds 1,104 interface translations. Spanish has 291 lines awaiting review after English changes. Thai has 8,528 submitted lines held for formatting corrections and two unfinished lines; the editable kit preserves their wording for contributors. Missing or outdated community translations fall back to matching English. Changed Japanese source text stays Japanese until matching English is available; catalog coverage is not a guarantee of current-game coverage.
 
 Thai includes glyph additions generated from **LINE Seed Sans TH**, under the [SIL Open Font License 1.1](FONT-LICENSES.md). They extend the gameplay and startup fallback atlases while preserving existing glyphs. Use v0.6.6 or newer to switch languages or restore after applying Thai. Installation, switching languages and restoration are verified on a temporary game copy; Thai combining marks, wrapping and translation quality still need in-game review. News stays English; English-specific graphics and layout overrides are excluded from community-language text.
 
@@ -47,7 +47,15 @@ Send a completed or partial file as a ZIP through **[Translation submission on G
 
 English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations, supported graphics and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
 
-**New in v0.6.7:**
+**New in v0.6.8:**
+
+- Fixes the missing-file error when reapplying translations after Restore Japanese and an official game update.
+- Discovers the current archives without requiring retired files from a completed restore receipt. New, changed or missing translations keep the original Japanese text until exact source/context matches are available.
+- Saves the updated Japanese originals for recovery. Temporary-copy apply, reapply and exact restoration passed; a local game launch in English was confirmed.
+
+Use **Check for updates → Update and restart**, close the game and official launcher, then **Apply English / Apply translation**. This is a patcher compatibility update; no new translations are included. Before future official game updates, continue to **Restore Japanese** first.
+
+**Also included from v0.6.7:**
 
 - Interrupted-patch recovery accepts exact original game files already restored by the official launcher.
 - Recovery logs and **Settings → Debug** identify the failing file, stage, expected/actual checksums and Windows error where available, without personal paths.
