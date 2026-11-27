@@ -90,24 +90,6 @@
       "sha256": "3f91dfc4291947a1e23a0e1301e1fb4121d49b7cf592dfb0387f034161ba5548",
       "signature": "jEyVkoQ4Ly2mvQF9eHO466eWE4Cr+3N9qzCsjC/67fUHIEyhaeWbQ/C9EwpBaQAiKMTlCj3ZB6y8M8x75WW4cpMDv/Lh8t6HZ6kBnTLByStjMsp0ZaqWyzVijwFPwPHJZL27a/3SDctegq1ofthSskq9DIYepKNye+6OvTMuCiRtkIy/Q9PAphiuvUH4pw9xykjgdP5AXHGEOqccfJrdQn3MsqA33lKzJGyproCGujMOuIkigOzP7+l1yBLLL6Yaq/e4g3+MFxfgsCLPBxjWkvBIKjcsJkS3a56TWAQPeLJ1YL1408AiRka28hQewkG67wFtDFUf0fA4/a835S/92sX0ptPBlTsb4eSef6tK6ou6nR4SJMKh1HkdKrpDt50QfKi6owR91oNxb/WmbHCyKVa27A1X85gDe4v/I07YEa+M0NqBIUUsy6quzanI/7gnTTkfujtoShdPvJw+6ploHOVMp5AcEk+n2a5iZW4ZSu1GsyhI8KhVkj4tOq+l7P/0",
       "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/android-data-3273851-20261128/android-pt-BR-1671bc24babef264.zip"
-    },
-    {
-      "id": "144c5d38fea2f252bcd227248e7e111929b065b74a6d2d8da7e0e9b445de7f39",
-      "language": "th",
-      "revision": 2026112802,
-      "game_version_code": 2646220,
-      "content_build": {
-        "raw_base_package": "3273851",
-        "raw_streaming_package": "3273851",
-        "default_package": "3273851",
-        "static_package": "2929638"
-      },
-      "name": "Thai",
-      "minimum_patcher": 400,
-      "size": 62821129,
-      "sha256": "7b86dfb1e33bc3491ff90f9cea4e91ab643c3590f20e019e002977cf5237e6c5",
-      "signature": "NkZtBaPsWqZxEt405nPOtD7pEKxOFRlSk/+/dOrsHbCRMuLbJ1jqWLuBiynN5Nj7x8s+6O8RzFMeqIs+WvgxtHunp5VDjV/7K+OTRcJf5Z1dpm/MgP0viCBDS4friHTQNxVZ/358kH9zdvMyZAouVNi/6kAWViKAs60NhNAxuNxgsF4Lkp+00M4TQA7f9A9csuK5ovZNOnUiRuPM3CdFNGUqWOp+yC08eLQq3uR13NKP2Kxhli92kLLqojLbgK/2N1jja5GD5+hyD25T2kMx09iKObRVXxfGgJHTN4PMb/aAGU2ZCronwuEJBRLY9l2SfIJeQCSXmMmS0Y6WTYiNIq+XnSqOX0gzjdx6KmUL90Tg8crBhp5vt0csIQqhr9+8X+35Jd2OGpov7ebJUShHVaCGrQWR9Je6lJJfpCNUkVw4gBwxPfvGTJ11XPCu380Dh6nXhjV6tmk1Vu88Yf6QACHDicJ/TBzGxZQsACFSvR35rc7/ZGDveR7J/oMTrOBR",
-      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/android-data-3273851-20261128/android-th-144c5d38fea2f252.zip"
     }
   ]
 }
