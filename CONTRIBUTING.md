@@ -14,22 +14,22 @@ Additional GitHub contributors: **Spanish [KarloZ7715](https://github.com/KarloZ
 
 ## Download an editable kit
 
-Current kit release: **[translator-files-20261128.3](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/translator-files-20261128.3)**.
-English base: `camera-expanded-20261127-02`. Each file contains 72,216 entries.
+Current kit release: **[translator-files-20261128.5](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/translator-files-20261128.5)**.
+English base: `content-3273853-20261128`. Each file contains 72,190 entries.
 Coverage below describes this kit version; hosted language packs may contain newer corrections.
 
 | Language | ZIP with instructions | Editable JSON | Kit coverage |
 | --- | --- | --- | --- |
-| Start a new language | [Blank kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translator-kit.zip) | [translations.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translations.json) | All targets blank |
-| Bahasa Indonesia | [Indonesian kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translations.id.zip) | [translations.id.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translations.id.json) | 71,925 filled; 291 to review |
-| Français | [French kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translations.fr.zip) | [translations.fr.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translations.fr.json) | 72,216 filled; no pending entries |
-| Español | [Spanish kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translations.es.zip) | [translations.es.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translations.es.json) | 71,925 filled; 291 to review |
-| ไทย | [Thai kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translations.th.zip) | [translations.th.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translations.th.json) | 72,216 filled; no pending entries |
-| Português (Brasil) | [Brazilian Portuguese kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translations.pt-BR.zip) | [translations.pt-BR.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/translations.pt-BR.json) | 71,445 filled; 771 to translate/review |
+| Start a new language | [Blank kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translator-kit.zip) | [translations.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translations.json) | All targets blank |
+| Bahasa Indonesia | [Indonesian kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translations.id.zip) | [translations.id.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translations.id.json) | 69,512 filled; 2,678 to translate/review |
+| Français | [French kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translations.fr.zip) | [translations.fr.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translations.fr.json) | 69,802 filled; 2,388 to translate/review |
+| Español | [Spanish kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translations.es.zip) | [translations.es.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translations.es.json) | 69,512 filled; 2,678 to translate/review |
+| ไทย | [Thai kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translations.th.zip) | [translations.th.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translations.th.json) | 69,802 filled; 2,388 to translate/review |
+| Português (Brasil) | [Brazilian Portuguese kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translations.pt-BR.zip) | [translations.pt-BR.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/translations.pt-BR.json) | 69,072 filled; 3,118 to translate/review |
 
 Choose a prefilled kit when your language already exists. These large JSON files
 are hosted as release downloads. You can download them without a GitHub account;
-sign in to GitHub to submit an issue. The ZIP includes the full [translator instructions](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.3/TRANSLATING.md).
+sign in to GitHub to submit an issue. The ZIP includes the full [translator instructions](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.5/TRANSLATING.md).
 
 ## Translate or correct text
 
@@ -64,11 +64,15 @@ The maintainer refreshes kits against the latest maintained English and publishe
 a new version here. Existing translations carry over when their references still
 match. Refresh review reports identify new, changed, missing or invalid entries
 and retain previous wording for review. All five language ZIPs include `REVIEW.html`
-and `review.json`. Indonesian, Spanish and Brazilian Portuguese each retain **291 translations
-whose English references changed**. Two Indonesian dialogue-variant formatting errors have been corrected without
-changing the translated wording. French and Thai each contain **72,216 accepted targets** against this English base;
-the Thai kit includes the final **613 formatting corrections**.
-Brazilian Portuguese retains **480 translations needing formatting corrections**. Its original wording is preserved for review.
+and `review.json`.
+
+This refresh identifies **2,305 new entries** in each language. Indonesian, Spanish
+and Brazilian Portuguese each have **373 entries with changed references**;
+French and Thai each have **83**. Brazilian Portuguese also retains **440
+translations needing formatting corrections**, with the original wording preserved
+for review. Each review report preserves **2,331 removed entries** separately from
+the editable current catalog.
+
 Open `REVIEW.html` first; it shows the first 1,000 review entries, and `review.json`
 contains the full list. Correct the target in the editable JSON, preserving
 placeholders, numbers, tags and line breaks. Pending wording survives later kit refreshes.
