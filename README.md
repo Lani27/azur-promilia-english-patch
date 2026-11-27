@@ -1,10 +1,10 @@
-# Azur Promilia English — v0.6.3
+# Azur Promilia English — v0.6.4
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. Corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.3/AzurPromiliaEnglish.exe)** from the [v0.6.3 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.3).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.4/AzurPromiliaEnglish.exe)** from the [v0.6.4 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.4).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game and official launcher.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
@@ -35,16 +35,23 @@ Send a completed or partial file as a ZIP through **[Translation submission on G
 
 English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations, supported graphics and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
 
+**Changes since v0.6.3:**
+
+- Fixed startup and data-folder errors caused by a lone `GameAssembly.dll` above AppData, such as in a drive root or user-profile folder. The DLL does not need to be removed.
+- Actual game folders remain blocked as patcher data locations. The private fix was confirmed working on an affected user's PC.
+
+On v0.6.3, select **Check for updates → Update and restart**. If the error prevents startup, close the old patcher and open the v0.6.4 download above. This storage fix does not require reapplying translations; language packs, news, graphics and mods are unchanged.
+
 **Changes since v0.6.2:**
 
-- **Update and restart** downloads, verifies and replaces the patcher, then reopens it. Install v0.6.3 manually once; subsequent executable updates can use this button. Settings, recovery data and mods stay in place.
+- **Update and restart** downloads, verifies and replaces the patcher, then reopens it. Users on v0.6.2 or older download the current executable manually once; subsequent executable updates can use this button. Settings, recovery data and mods stay in place.
 - **Apply** automatically refreshes missing or damaged translation data once before changing game files. Failed recovery reports a specific, sanitized data error.
 - Missing patcher data folders are recreated automatically. **Change folder** and **Use default location** also work when the previous folder or drive is gone. Deleted recovery backups cannot be recreated.
 - Recognized leftover CPDD full-text/UID helpers can be backed up and recreated after confirmation, without the old game folder or receipt. Unknown or official hotfix packages remain protected. Other game copies sharing the helper cache may need their patch reapplied.
 - **291 reviewed dialogue corrections** preserve separate text variants, fixing repeated/merged dialogue in affected entries. Future scans check the same separators.
 - **Français** is available under **Settings → Game language**. Missing or outdated French entries use current English.
 
-Download v0.6.3, close the game and launcher, then select **Apply English** or **Apply translation**. The dialogue corrections also arrive as compatible data updates for v0.6.2. Existing mods, graphics and news are preserved. The corrected dialogue scene still needs in-game visual confirmation.
+For the v0.6.3 dialogue corrections, close the game and launcher, then select **Apply English** or **Apply translation**. These corrections also arrive as compatible data updates for v0.6.2. Existing mods, graphics and news are preserved. The corrected dialogue scene still needs in-game visual confirmation.
 
 **Changes since v0.6.0:**
 
@@ -74,7 +81,7 @@ Select **Apply English** to update an existing installation. Enabled English gra
 - Reviewed camera compatibility rules can arrive through data updates when the existing engine supports them.
 - New optional **Hide HUD UID** mod, off by default, with independent Install/Uninstall controls.
 
-Download v0.6.3 and apply the selected language to use the current patcher. If full-text support is skipped, follow the reported recovery steps and apply again. Compatible future translation, news, layout and graphic changes remain data updates. English translation and news counts are unchanged from v0.5.9.
+Download the current patcher and apply the selected language to use these features. If full-text support is skipped, follow the reported recovery steps and apply again. Compatible future translation, news, layout and graphic changes remain data updates. English translation and news counts are unchanged from v0.5.9.
 
 Automated checks cover archive readback, temporary-copy install/reapply, independent mod removal, byte-exact restoration and missing/modified camera scenarios. The new HUD UID option still needs an in-game check across scene changes; not every long title is guaranteed to fit every resolution.
 
