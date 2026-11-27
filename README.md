@@ -17,9 +17,10 @@ The [published English data](https://github.com/Lani27/azur-promilia-english-pat
 
 ## Game languages
 
-Community translation contributors (Discord): **Indonesian (rukathebest)** and **French (tonax.)**.
+Indonesian contributor: **rukathebest (Discord)**.
+French contributors: **tonax. (Discord) / [TonySanchezD](https://github.com/TonySanchezD) (GitHub)** and **[pedrokarim](https://github.com/pedrokarim) (GitHub)**.
 Brazilian Portuguese contributor: **reinhardwq**.
-Additional GitHub contributors: **French [pedrokarim](https://github.com/pedrokarim) and [TonySanchezD](https://github.com/TonySanchezD)**, **Spanish [KarloZ7715](https://github.com/KarloZ7715)** and **Thai [CXZP](https://github.com/CXZP)**.
+Additional GitHub contributors: **Spanish [KarloZ7715](https://github.com/KarloZ7715)** and **Thai [CXZP](https://github.com/CXZP)**.
 
 English, Français, Bahasa Indonesia, Español, ไทย and Português (Brasil) use the same patcher. Thai requires **v0.6.6 or newer** for its included font support. Version 0.6.0 and newer download the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate language-specific patcher or manual JSON installation is needed.
 
