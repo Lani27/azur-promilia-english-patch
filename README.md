@@ -1,10 +1,10 @@
-# Azur Promilia English — v0.6.6
+# Azur Promilia English — v0.6.7
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. Corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.6/AzurPromiliaEnglish.exe)** from the [v0.6.6 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.6).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.7/AzurPromiliaEnglish.exe)** from the [v0.6.7 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.7).
 
 1. Finish updates through the official launcher, including any download on the game's first screen. Close the game and official launcher.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
@@ -47,7 +47,15 @@ Send a completed or partial file as a ZIP through **[Translation submission on G
 
 English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations, supported graphics and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
 
-**New in v0.6.6:**
+**New in v0.6.7:**
+
+- Interrupted-patch recovery accepts exact original game files already restored by the official launcher.
+- Recovery logs and **Settings → Debug** identify the failing file, stage, expected/actual checksums and Windows error where available, without personal paths.
+- Unrecognized files and recovery records are preserved; installation status is rechecked after recovery. The private recovery build resolved the reported issue on an affected user's PC.
+
+Use **Check for updates → Update and restart**. If recovery is pending, close the game and official launcher, select **Recover interrupted patch**, then **Apply English / Apply translation**. Keep recovery files; share **Copy log** or **Settings → Debug** if it still fails. Current languages, camera data and mod selections are retained.
+
+**Also included from v0.6.6:**
 
 - Thai font support and a hosted Thai translation under **Settings → Game language → Thai**.
 - Spanish is now hosted alongside French and Indonesian; French gains 1,104 interface translations.
