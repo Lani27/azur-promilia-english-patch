@@ -1,5 +1,19 @@
 {
   "languages": {
+    "fr": {
+      "minimum_engine": 1,
+      "minimum_patcher": "0.6.0",
+      "name": "Français",
+      "required_capabilities": [
+        "community-language-v1",
+        "hosted-language-updates-v1"
+      ],
+      "revision": 1,
+      "sha256": "58a4802796ea10aa5a2972bfa5d00baecb70b4784046d2af74b10614bd4df6a9",
+      "size": 11568896,
+      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/language-fr-20261127.1/fr.language-pack.json.gz",
+      "version": "20261127.1"
+    },
     "id": {
       "minimum_engine": 1,
       "minimum_patcher": "0.6.0",
@@ -16,5 +30,5 @@
     }
   },
   "schema": 1,
-  "sequence": 1795726933847
+  "sequence": 1795769187791
 }
