@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "sequence": 1795728351454,
+  "sequence": 1795768064437,
   "state": "ready",
   "minimum_patcher": "0.6.2",
-  "latest_patcher": "0.6.2",
+  "latest_patcher": "0.6.3",
   "minimum_engine": 1,
   "required_capabilities": [
     "camera-distance-fade-v1",
@@ -28,17 +28,17 @@
     "unity-ui-layout-sizing-v1",
     "unity-ui-layout-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.2",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.3",
   "reason": "Required support for approved English sprites, atlas graphics and exact restoration.",
   "data": {
-    "version": "approved-artwork-20261127-01",
-    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-approved-artwork-20261127-01/english-data.zip",
-    "size": 12085631,
-    "sha256": "ff7192e6db8bb1d5a6049f37ce7ed07aed2f347fe82b8836f6b866c5591c84cc",
+    "version": "dialogue-variants-20261127-01",
+    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-dialogue-variants-20261127-01/english-data.zip",
+    "size": 12087758,
+    "sha256": "8cd6dc5ab058042c5b3ca0c979b76ac11163c5b94a896f9800084663dd57f0d2",
     "files": {
       "english.catalog.json.gz": {
-        "size": 12040680,
-        "sha256": "59843a78a1b826911316403b62fca4df8b6324c92e19e53d80e1de3b7bd40109"
+        "size": 12042993,
+        "sha256": "a02146ef3cf359996ef052b036d7ec811217c7bf3dd36af0480a4a0bce72c1b5"
       },
       "mapping.json": {
         "size": 254975,
