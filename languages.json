@@ -55,23 +55,8 @@
       "size": 11406495,
       "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/language-pt-BR-20261128.1/pt-BR.language-pack.json.gz",
       "version": "20261128.1"
-    },
-    "th": {
-      "minimum_engine": 1,
-      "minimum_patcher": "0.6.6",
-      "name": "Thai",
-      "required_capabilities": [
-        "community-language-v1",
-        "community-thai-sdf-v1",
-        "hosted-language-updates-v1"
-      ],
-      "revision": 3,
-      "sha256": "ab02c3b296cce727a0604b100308b4d55ea2c5bf76d7ca28123ad8322d81949c",
-      "size": 13112558,
-      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/language-th-20261128.2/th.language-pack.json.gz",
-      "version": "20261128.2"
     }
   },
   "schema": 1,
-  "sequence": 1795809170008
+  "sequence": 1795809170009
 }
