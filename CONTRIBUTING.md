@@ -9,14 +9,15 @@ instead of editing the English reference yourself.
 
 Community translation contributors (Discord): **Indonesian (rukathebest)** and **French (tonax.)**.
 Brazilian Portuguese contributor: **reinhardwq**.
-Additional GitHub contributors: **French [pedrokarim](https://github.com/pedrokarim)**, **Spanish [KarloZ7715](https://github.com/KarloZ7715)** and **Thai [CXZP](https://github.com/CXZP)**.
+Additional GitHub contributors: **French [pedrokarim](https://github.com/pedrokarim) and [TonySanchezD](https://github.com/TonySanchezD)**, **Spanish [KarloZ7715](https://github.com/KarloZ7715)** and **Thai [CXZP](https://github.com/CXZP)**.
 
 ## Download an editable kit
 
 Current kit release: **[translator-files-20261128.1](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/translator-files-20261128.1)**.
 English base: `camera-expanded-20261127-02`. Each file contains 72,216 entries.
+Coverage below describes this kit version; hosted language packs may contain newer corrections.
 
-| Language | ZIP with instructions | Editable JSON | Current coverage |
+| Language | ZIP with instructions | Editable JSON | Kit coverage |
 | --- | --- | --- | --- |
 | Start a new language | [Blank kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.1/translator-kit.zip) | [translations.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.1/translations.json) | All targets blank |
 | Bahasa Indonesia | [Indonesian kit](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.1/translations.id.zip) | [translations.id.json](https://github.com/Lani27/azur-promilia-english-patch/releases/download/translator-files-20261128.1/translations.id.json) | 71,925 filled; 291 to review |
