@@ -2,17 +2,17 @@
   "languages": {
     "es": {
       "minimum_engine": 1,
-      "minimum_patcher": "0.6.0",
+      "minimum_patcher": "0.6.11",
       "name": "Español",
       "required_capabilities": [
         "community-language-v1",
         "hosted-language-updates-v1"
       ],
-      "revision": 1,
-      "sha256": "5778aa4bbfe3b0550901b33776ba58319814666340edb64cf4638b59ac2d7bbe",
-      "size": 11680890,
-      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/language-es-20261127.1/es.language-pack.json.gz",
-      "version": "20261127.1"
+      "revision": 2,
+      "sha256": "ab40a8d31cc9cd27f76d3b5d5cfe2b7047a78ac0a094c55cf2276fa9f2b4f1a2",
+      "size": 11728674,
+      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/language-es-20261128.1/es.language-pack.json.gz",
+      "version": "20261128.1"
     },
     "fr": {
       "minimum_engine": 1,
@@ -58,5 +58,5 @@
     }
   },
   "schema": 1,
-  "sequence": 1795820846968
+  "sequence": 1795820847903
 }
