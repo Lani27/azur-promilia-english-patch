@@ -65,13 +65,13 @@
         "community-thai-sdf-v1",
         "hosted-language-updates-v1"
       ],
-      "revision": 2,
-      "sha256": "3fc42d54eff234f9a9db982669382f47d95de257eb65334b7589b11948393182",
-      "size": 12926036,
-      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/language-th-20261128.1/th.language-pack.json.gz",
-      "version": "20261128.1"
+      "revision": 3,
+      "sha256": "ab02c3b296cce727a0604b100308b4d55ea2c5bf76d7ca28123ad8322d81949c",
+      "size": 13112558,
+      "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/language-th-20261128.2/th.language-pack.json.gz",
+      "version": "20261128.2"
     }
   },
   "schema": 1,
-  "sequence": 1795806848471
+  "sequence": 1795809170008
 }
