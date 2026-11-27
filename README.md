@@ -30,12 +30,12 @@ Community pack coverage against the published English catalog (72,216 entries):
 | Bahasa Indonesia | 71,925 | 291 |
 | Français | 72,216 | 0 |
 | Español | 71,925 | 291 |
-| ไทย | 71,603 | 613 |
+| ไทย | 72,216 | 0 |
 | Português (Brasil) | 71,445 | 771 |
 
 Brazilian Portuguese adds 71,445 accepted translations from reinhardwq; 291 changed English references and 480 formatting conflicts are retained in its contributor review kit.
 
-The latest French update completes 1,721 remaining targets and corrects 991 existing translations. Overlapping submissions in [#9](https://github.com/Lani27/azur-promilia-english-patch/issues/9) and [#11](https://github.com/Lani27/azur-promilia-english-patch/issues/11) were reviewed together; the validated #11 wording is used where they differ. Spanish has 291 lines awaiting review after English changes. The corrected Thai submission in [#8](https://github.com/Lani27/azur-promilia-english-patch/issues/8) adds 7,917 accepted entries; 613 still need formatting corrections, with the submitted wording retained for review. Missing or outdated community translations fall back to matching English. Changed Japanese source text stays Japanese until matching English is available; catalog coverage is not a guarantee of current-game coverage.
+The latest French update completes 1,721 remaining targets and corrects 991 existing translations. Overlapping submissions in [#9](https://github.com/Lani27/azur-promilia-english-patch/issues/9) and [#11](https://github.com/Lani27/azur-promilia-english-patch/issues/11) were reviewed together; the validated #11 wording is used where they differ. Spanish has 291 lines awaiting review after English changes. The Thai update from [#8](https://github.com/Lani27/azur-promilia-english-patch/issues/8) now includes all 72,216 entries. The remaining 613 entries were corrected for quantities, placeholders, tags and line breaks; all previously accepted Thai wording is retained. The refreshed contributor kit includes these corrections. Missing or outdated community translations fall back to matching English. Changed Japanese source text stays Japanese until matching English is available; catalog coverage is not a guarantee of current-game coverage.
 
 Thai includes glyph additions generated from **LINE Seed Sans TH**, under the [SIL Open Font License 1.1](FONT-LICENSES.md). They extend the gameplay and startup fallback atlases while preserving existing glyphs. Use v0.6.6 or newer to switch languages or restore after applying Thai. Installation, switching languages and restoration are verified on a temporary game copy; Thai combining marks, wrapping and translation quality still need in-game review. News stays English; English-specific graphics and layout overrides are excluded from community-language text.
 
