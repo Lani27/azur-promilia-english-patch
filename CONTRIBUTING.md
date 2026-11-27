@@ -7,6 +7,8 @@ community translators use **Japanese → English → their language** to transla
 entries and review changed ones. Please report English errors in your submission
 instead of editing the English reference yourself.
 
+Community translation contributors (Discord): **Indonesian (rukathebest)** and **French (tonax.)**.
+
 ## Download an editable kit
 
 Current kit release: **[translator-files-20261127.3](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/translator-files-20261127.3)**.
