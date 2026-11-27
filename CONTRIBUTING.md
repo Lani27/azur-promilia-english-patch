@@ -7,9 +7,10 @@ community translators use **Japanese → English → their language** to transla
 entries and review changed ones. Please report English errors in your submission
 instead of editing the English reference yourself.
 
-Community translation contributors (Discord): **Indonesian (rukathebest)** and **French (tonax.)**.
+Indonesian contributor: **rukathebest (Discord)**.
+French contributors: **tonax. (Discord) / [TonySanchezD](https://github.com/TonySanchezD) (GitHub)** and **[pedrokarim](https://github.com/pedrokarim) (GitHub)**.
 Brazilian Portuguese contributor: **reinhardwq**.
-Additional GitHub contributors: **French [pedrokarim](https://github.com/pedrokarim) and [TonySanchezD](https://github.com/TonySanchezD)**, **Spanish [KarloZ7715](https://github.com/KarloZ7715)** and **Thai [CXZP](https://github.com/CXZP)**.
+Additional GitHub contributors: **Spanish [KarloZ7715](https://github.com/KarloZ7715)** and **Thai [CXZP](https://github.com/CXZP)**.
 
 ## Download an editable kit
 
