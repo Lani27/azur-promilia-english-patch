@@ -1,6 +1,6 @@
 # Azur Promilia English — v0.6.3
 
-CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. This is a pre-release build; corrections and coverage updates will continue as the game updates.
+CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. Corrections and coverage updates will continue as the game updates.
 
 ## Download
 
@@ -14,6 +14,8 @@ Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-eng
 The current data contains **72,216 matching game/interface translation entries** and **23 news article bodies**. This includes 109 existing messages in the separate update-screen language file; loading tooltips have been confirmed in English in-game. News list/header titles remain Japanese. Optional English graphics now cover **84 approved images**, including five achievement-book titles and 79 additional UI graphics. Five larger approved replacements and other unsupported Japanese image lettering remain unchanged. Changed or unknown source strings remain untouched until matching English is available. Not every scene or text layout has been tested.
 
 ## Game languages
+
+Community translation contributors (Discord): **Indonesian (rukathebest)** and **French (tonax.)**.
 
 English, Français and Bahasa Indonesia use the same patcher. Version 0.6.0 and newer download the selected community language from this repository; later translation revisions arrive through the normal update and pre-launch checks. No separate language-specific patcher or manual JSON installation is needed.
 
