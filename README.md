@@ -1,19 +1,19 @@
-# Azur Promilia English — v0.6.12
+# Azur Promilia English — v0.6.13
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. Corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.12/AzurPromiliaEnglish.exe)** from the [v0.6.12 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.12).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.13/AzurPromiliaEnglish.exe)** from the [v0.6.13 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.13).
 
 1. Install any client/executable update through the official launcher, then close the game and official launcher. The patcher can download supported in-game content updates.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
 3. For English, select **Apply English**. For another language, choose **Settings → Game language → Français / Bahasa Indonesia / Español / Português (Brasil)**, wait for its download, then select **Apply translation**.
 4. Apply automatically handles supported content downloads and repairs, restores recognized patches, then reapplies your language and mods. Select **Launch game**; it checks live game content again before starting and prompts if a content update is needed, alongside translation/news and patcher updates. It uses the game's normal graphics mode.
 
-**Broken installation after an update or repair?** Update to v0.6.12, close the game and official launcher, then press **Apply English / Apply translation**. The patcher automatically repairs supported missing or damaged files, rebuilds verified Japanese backups when available and resumes recognized interrupted patches before continuing. Keep the patcher's recovery files; do not delete AppData. If something cannot be repaired safely, the patcher explains the problem and next step.
+**Broken installation after an update or repair?** Update to v0.6.13, close the game and official launcher, then press **Apply English / Apply translation**. The patcher automatically repairs supported missing or damaged files, rebuilds verified Japanese backups when available and resumes recognized interrupted patches before continuing. Keep the patcher's recovery files; do not delete AppData. If something cannot be repaired safely, the patcher explains the problem and next step.
 
-The [published English data](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/data-content-3273853-20261128) contains **72,190 supported game/interface translations** and **25 news article bodies**. **234 new and 2,122 changed strings** were translated and reviewed for game content **3273853**; all 72,190 supported strings validate and match the verified source, with zero missing translations in that set. This data requires **patcher 0.6.11 or newer** for numeric-quantity validation and downloads separately from the executable. Loading tooltips have been confirmed in English in-game; news list/header titles remain Japanese. Optional English graphics cover **84 approved images**. Five larger approved replacements and unsupported Japanese image lettering remain unchanged. New or changed source strings from future updates remain untranslated until matching English is available. Not every scene or text layout has been tested.
+The [published English data](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/data-content-3273853-spacing-artwork-20261128) contains **72,190 supported game/interface translations** and **25 news article bodies**. It retains the previously reviewed **234 new and 2,122 changed strings** for game content **3273853**, adds spacing corrections in **388 entries**, and includes **89 approved English graphics** with the five previously excluded larger replacements. All 72,190 supported strings validate and match the verified source, with zero missing translations in that set. This data requires **patcher 0.6.13 or newer** for the additional graphics and downloads separately from the executable. News is unchanged in this release; loading tooltips have been confirmed in English in-game, while news list/header titles remain Japanese. Unsupported image lettering and new or changed source strings remain untranslated until matching English is available. Not every scene or text layout has been tested.
 
 ## Game languages
 
@@ -33,7 +33,7 @@ Community pack coverage against the **content-3273853-20261128** English catalog
 | Español | 72,190 | 0 |
 | Português (Brasil) | 70,013 | 2,177 |
 
-The table above counts exact matches against the current English baseline. The refreshed contributor kits use the same 72,190-entry English base. Community entries with changed references use matching English until each language is updated.
+The table above counts exact matches against the named `content-3273853-20261128` baseline. The contributor kits still use that 72,190-entry English base and have not been regenerated for this spacing update. Community entries with changed references use matching English until each language is updated.
 
 The latest Brazilian Portuguese update from reinhardwq adds 941 translated entries and corrects 6,829 existing targets. Formatting was corrected in 442 entries; 2,177 entries without supplied translations continue to use English.
 
@@ -61,7 +61,19 @@ Send a completed or partial file as a ZIP through **[Translation submission on G
 
 English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations, supported graphics and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
 
-**New in v0.6.12:**
+**New in v0.6.13:**
+
+- **Faster content updates:** compares official release manifests so unchanged archives need presence/size checks instead of a complete reread. This also covers fresh installations that still need their first in-game update. Changed archives, recorded patch files and invalidated saved checks still receive checksum verification.
+- **No second full scan after an update:** verified downloads continue directly to applying English. Later Apply and Launch checks skip the full scan while content versions and recorded sources remain unchanged. Genuine repair, unfinished downloads or unavailable update history can still require broader verification.
+- **Resumable checks and a quieter journal:** saves verified checks during scanning and on cancellation; progress counters update in place without filling the journal every second.
+- **Five more English graphics:** all 89 approved images are supported, including the larger replacements previously excluded. Native image dimensions and approved artwork are preserved. Enable **English Graphic Replacement** in Mods; existing selections update when you apply English. Use **Launch game** in the patcher to preserve the selected language and mods.
+- **English spacing fixes:** corrects missing spaces around glossary names and unusual apostrophe spacing in 388 entries, while preserving lore-link identifiers and formatting. Future English exports apply the same checks.
+
+Update the patcher, close the game and official launcher, then select **Apply English / Apply translation**. The English catalog, graphics and news remain a separate data download; no translation catalog is bundled in the EXE. Community packs and contributor kits retain their stated releases.
+
+Validation: 340 Rust tests and 74 Python tests passed; 41 opt-in Rust tests and two Python tests were skipped by those suites. Separate checks verified the exact executable, offline data upgrade, and temporary-copy installation, reapplication, mod toggles and byte-exact Japanese restoration for all 72,190 strings and 89 graphics. No live game or cache files were changed. In-game rendering of these changes has not yet been visually checked.
+
+**Included from v0.6.12:**
 
 Broken installation? Update the patcher, close the game and official launcher, then press **Apply English** (or **Apply translation** for your selected language). Supported repairs now run automatically and continue into patching. Keep your patcher recovery files; there is no need to delete AppData.
 
@@ -193,7 +205,7 @@ The **motion-sickness mods** group contains three independent options:
 
 The other mods remain separate:
 
-- **English Graphic Replacement:** 84 English UI graphics, including the five achievement-book titles. Uninstall restores the original graphics.
+- **English Graphic Replacement:** 89 English UI graphics, including the five achievement-book titles and five additional larger replacements. Uninstall restores the original graphics.
 - **Disable TAA:** changes the last-used anti-aliasing profile, leaving DLSS/FSR/XeSS and FPS settings alone.
 - **Async shaders (DX11):** experimental; uninstall if graphical errors appear.
 - **No zoomed-in character fade:** disables angle and distance fading/hiding in overworld and photo cameras. Special runtime-controlled fades may remain.
