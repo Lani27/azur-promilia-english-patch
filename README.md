@@ -1,19 +1,19 @@
-# Azur Promilia English — v0.6.11
+# Azur Promilia English — v0.6.12
 
 CPDD community English patcher for the **Japanese PC client**. Community testers have successfully applied English and launched the game. Corrections and coverage updates will continue as the game updates.
 
 ## Download
 
-Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.11/AzurPromiliaEnglish.exe)** from the [v0.6.11 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.11).
+Download **[AzurPromiliaEnglish.exe](https://github.com/Lani27/azur-promilia-english-patch/releases/download/patcher-v0.6.12/AzurPromiliaEnglish.exe)** from the [v0.6.12 release](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.12).
 
 1. Install any client/executable update through the official launcher, then close the game and official launcher. The patcher can download supported in-game content updates.
 2. Open the patcher and select the folder containing `AzurPromiliaJP.exe`.
 3. For English, select **Apply English**. For another language, choose **Settings → Game language → Français / Bahasa Indonesia / Español / Português (Brasil)**, wait for its download, then select **Apply translation**.
-4. Accept any game download or repair prompt. The patcher restores recognized patches, verifies official downloads, then reapplies your language and mods. Select **Launch game**; it checks live game content again before starting, alongside translation/news and patcher updates. It uses the game's normal graphics mode.
+4. Apply automatically handles supported content downloads and repairs, restores recognized patches, then reapplies your language and mods. Select **Launch game**; it checks live game content again before starting and prompts if a content update is needed, alongside translation/news and patcher updates. It uses the game's normal graphics mode.
 
-**Corrupted files after a game update?** With v0.6.11, close the game and launcher, press **Apply English / Apply translation**, then accept **Repair and continue**. Keep the patcher's recovery files. If it specifically reports an interrupted patch transaction, use **Recover interrupted patch** first, then Apply again.
+**Broken installation after an update or repair?** Update to v0.6.12, close the game and official launcher, then press **Apply English / Apply translation**. The patcher automatically repairs supported missing or damaged files, rebuilds verified Japanese backups when available and resumes recognized interrupted patches before continuing. Keep the patcher's recovery files; do not delete AppData. If something cannot be repaired safely, the patcher explains the problem and next step.
 
-The [published English data](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/data-content-3273853-20261128) contains **72,190 supported game/interface translations** and **25 news article bodies**. **234 new and 2,122 changed strings** were translated and reviewed for game content **3273853**; all 72,190 supported strings validate and match the verified source, with zero missing translations in that set. This data requires **patcher 0.6.11** for numeric-quantity validation and downloads separately from the executable. Loading tooltips have been confirmed in English in-game; news list/header titles remain Japanese. Optional English graphics cover **84 approved images**. Five larger approved replacements and unsupported Japanese image lettering remain unchanged. New or changed source strings from future updates remain untranslated until matching English is available. Not every scene or text layout has been tested.
+The [published English data](https://github.com/Lani27/azur-promilia-english-patch/releases/tag/data-content-3273853-20261128) contains **72,190 supported game/interface translations** and **25 news article bodies**. **234 new and 2,122 changed strings** were translated and reviewed for game content **3273853**; all 72,190 supported strings validate and match the verified source, with zero missing translations in that set. This data requires **patcher 0.6.11 or newer** for numeric-quantity validation and downloads separately from the executable. Loading tooltips have been confirmed in English in-game; news list/header titles remain Japanese. Optional English graphics cover **84 approved images**. Five larger approved replacements and unsupported Japanese image lettering remain unchanged. New or changed source strings from future updates remain untranslated until matching English is available. Not every scene or text layout has been tested.
 
 ## Game languages
 
@@ -61,14 +61,30 @@ Send a completed or partial file as a ZIP through **[Translation submission on G
 
 English corrections, community translations, glossary changes, compatible new tables/IDs, supported interface locations, supported graphics and news articles can arrive as **data updates**, without downloading another executable. Each community language has independent releases. Updates are translated and prepared by maintainers; users apply them locally.
 
-**New in v0.6.11:**
+**New in v0.6.12:**
+
+Broken installation? Update the patcher, close the game and official launcher, then press **Apply English** (or **Apply translation** for your selected language). Supported repairs now run automatically and continue into patching. Keep your patcher recovery files; there is no need to delete AppData.
+
+- **Automatic repair and recovery:** downloads checksum-verified official files for missing or damaged archives, including same-size corruption. Restores verified surviving patches after game updates and resumes recognized interrupted patches.
+- **Japanese backup recovery:** rebuilds missing or damaged backups from verified local originals or the official CDN when the saved original is available. Restore Japanese and Recover use this recovery too.
+- **Faster checks:** complete, up-to-date fresh installations and unchanged installations skip unnecessary full archive scans. Required repeat scans reuse verified unchanged files; changed files still receive checksum checks.
+- **More efficient patch and mod archives:** preserves native archive blocks where possible and reuses unchanged compressed data. This reduces rebuilding and decompression work; gameplay FPS has not been measured.
+- **Clearer operation feedback:** automatic download retries, specific file/permission/disk-space errors and a **Cancel operation** button. Optional news-cache failures no longer block game-file recovery.
+
+**Launch game** still checks for content updates before starting and asks before downloading a new update. Client/executable updates use the official launcher. New or changed Japanese text stays untranslated until a matching translation is available.
+
+Translation data remains a separate download. This patcher release does not replace the current English data, community language packs or translation kits.
+
+Validation: 329 Rust tests and 39 publication/update Python tests passed. The exact 0.6.12 executable passed its read-only audit, temporary-copy installation/reapplication/exact restoration of 72,190 translations, and the 0.6.11 → 0.6.12 self-update restart check. Forty optional Rust tests were skipped in this release run; separate official-CDN recovery and process-guard checks passed during development. No live game files were changed by verification.
+
+**Also included from v0.6.11:**
 
 - Faster full archive verification with up to four readers, with progress showing bytes checked and scan speed. Checksum checks still catch same-size corruption.
 - Mod checkboxes with **Install selected / Uninstall selected** buttons. Selected changes run together, preserving translated text and unselected mods.
 - A fix for validating equivalent compound numeric quantities in translations.
 - A separate English data update: **234 new and 2,122 changed translations**, all **72,190 supported strings** validated, and refreshed news. The executable contains no bundled translation catalog.
 
-Use **Check for updates → Update and restart**, then **Apply English / Apply translation**. Corrupted installations should accept **Repair and continue** when prompted.
+Use **Check for updates → Update and restart**, then **Apply English / Apply translation**. Version 0.6.12 handles supported repairs automatically.
 
 Validation: 299 Rust tests and 69 Python tests passed; 36 optional Rust tests were skipped. The packaged executable passed its read-only audit and temporary-copy installation, batch mod changes, reapplication and exact restoration. These checks did not modify the live game.
 
@@ -81,7 +97,7 @@ Validation: 299 Rust tests and 69 Python tests passed; 36 optional Rust tests we
 - Download and repair prompts appear inside the patcher above other controls, with explicit continue/cancel buttons. They cannot be hidden behind the patcher window.
 - Missing translations and new or changed Japanese strings remain untranslated until matching translations are available. Unsupported file formats still stop with an error.
 
-Use **Check for updates → Update and restart**, then **Apply English / Apply translation**. You do not need to restore manually before a content update handled by the patcher. If the game already updated while patched, use Apply and accept the repair prompt. Client/executable updates still use the official launcher. This release contains recovery and update-handling fixes; translation coverage is unchanged.
+Use **Check for updates → Update and restart**, then **Apply English / Apply translation**. You do not need to restore manually before a content update handled by the patcher. If the game already updated while patched, use Apply; v0.6.12 handles supported repairs automatically. Client/executable updates still use the official launcher. This release contains recovery and update-handling fixes; translation coverage is unchanged.
 
 Validation: 294 Rust tests and nine release checks passed, including prompt visibility and cancellation. Official-CDN repair of same-size corruption passed on a temporary copy; the rebuilt executable passed install/reapply/restore checks. The new automatic update-through-launch flow has not yet been tested in live gameplay.
 
@@ -99,7 +115,7 @@ Use **Check for updates → Update and restart**, close the game and official la
 - Recovery logs and **Settings → Debug** identify the failing file, stage, expected/actual checksums and Windows error where available, without personal paths.
 - Unrecognized files and recovery records are preserved; installation status is rechecked after recovery. The private recovery build resolved the reported issue on an affected user's PC.
 
-Use **Check for updates → Update and restart**. If recovery is pending, close the game and official launcher, select **Recover interrupted patch**, then **Apply English / Apply translation**. Keep recovery files; share **Copy log** or **Settings → Debug** if it still fails. Current languages, camera data and mod selections are retained.
+Use **Check for updates → Update and restart**. If recovery is pending, close the game and official launcher and select **Apply English / Apply translation**. Version 0.6.12 resumes recognized interrupted patches automatically; **Recover interrupted patch** remains available separately. Keep recovery files; share **Copy log** or **Settings → Debug** if it still fails. Current languages, camera data and mod selections are retained.
 
 **Also included from v0.6.6:**
 
@@ -120,8 +136,8 @@ On v0.6.3, select **Check for updates → Update and restart**. If the error pre
 
 - **Update and restart** downloads, verifies and replaces the patcher, then reopens it. Users on v0.6.2 or older download the current executable manually once; subsequent executable updates can use this button. Settings, recovery data and mods stay in place.
 - **Apply** automatically refreshes missing or damaged translation data once before changing game files. Failed recovery reports a specific, sanitized data error.
-- Missing patcher data folders are recreated automatically. **Change folder** and **Use default location** also work when the previous folder or drive is gone. Deleted recovery backups cannot be recreated.
-- Recognized leftover CPDD full-text/UID helpers can be backed up and recreated after confirmation, without the old game folder or receipt. Unknown or official hotfix packages remain protected. Other game copies sharing the helper cache may need their patch reapplied.
+- Missing patcher data folders are recreated automatically. **Change folder** and **Use default location** also work when the previous folder or drive is gone. Version 0.6.12 can rebuild missing Japanese backups when a valid recovery record identifies an exact verified original; keep those records.
+- Recognized leftover CPDD full-text/UID helpers can be backed up and recreated without the old game folder or receipt; v0.6.12 handles this automatically during Apply. Unknown or official hotfix packages remain protected. Other game copies sharing the helper cache may need their patch reapplied.
 - **291 reviewed dialogue corrections** preserve separate text variants, fixing repeated/merged dialogue in affected entries. Future scans check the same separators.
 - **Français** is available under **Settings → Game language**. Missing or outdated French entries use current English.
 
@@ -163,7 +179,7 @@ Before launch, **Update and launch** applies changed translation data or refresh
 
 New binary formats or unsupported decoder changes may require another executable. Data packages cannot install executable code. Each translation must match the current Japanese source and context; old English is never selected by ID alone. News bodies are checked against fresh official article content before use.
 
-**Restore Japanese** remains available for returning to native files. If an official update or repair already ran while patched, use **Apply English / Apply translation** and accept any repair prompt. **Recover interrupted patch** handles interrupted patch transactions while preserving recovery records.
+**Restore Japanese** remains available for returning to native files. If an official update or repair already ran while patched, use **Apply English / Apply translation**; v0.6.12 handles supported repairs automatically. **Recover interrupted patch** handles interrupted patch transactions while preserving recovery records.
 
 ## Mods
 

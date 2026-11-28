@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "sequence": 1795807809804,
+  "sequence": 1795844747269,
   "state": "ready",
   "minimum_patcher": "0.6.11",
-  "latest_patcher": "0.6.11",
+  "latest_patcher": "0.6.12",
   "minimum_engine": 1,
   "required_capabilities": [
     "camera-distance-fade-v1",
@@ -29,7 +29,7 @@
     "unity-ui-layout-sizing-v1",
     "unity-ui-layout-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.11",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.12",
   "reason": "Required fix for validating compound numeric quantities in the refreshed English translations.",
   "data": {
     "version": "content-3273853-20261128",
