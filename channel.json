@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "sequence": 1795844747269,
+  "sequence": 1795853801265,
   "state": "ready",
-  "minimum_patcher": "0.6.11",
-  "latest_patcher": "0.6.12",
+  "minimum_patcher": "0.6.13",
+  "latest_patcher": "0.6.13",
   "minimum_engine": 1,
   "required_capabilities": [
     "camera-distance-fade-v1",
@@ -23,23 +23,24 @@
     "unity-graphics-bc3-v1",
     "unity-packed-csv-jp-v1",
     "unity-packed-static-ui-v1",
+    "unity-relocated-artwork-v1",
     "unity-reviewed-artwork-v2",
     "unity-startup-sdk-v1",
     "unity-ui-layout-fixed-height-v1",
     "unity-ui-layout-sizing-v1",
     "unity-ui-layout-v1"
   ],
-  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.12",
-  "reason": "Required fix for validating compound numeric quantities in the refreshed English translations.",
+  "patcher_url": "https://github.com/Lani27/azur-promilia-english-patch/releases/tag/patcher-v0.6.13",
+  "reason": "Required support for the five additional approved English graphics and their exact restoration.",
   "data": {
-    "version": "content-3273853-20261128",
-    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-content-3273853-20261128/english-data.zip",
-    "size": 12093591,
-    "sha256": "d8cca6b8ad89cb36771fb6c235dc22bf19ec99a44c0ad1d1d75040d7817ffd44",
+    "version": "content-3273853-spacing-artwork-20261128",
+    "url": "https://github.com/Lani27/azur-promilia-english-patch/releases/download/data-content-3273853-spacing-artwork-20261128/english-data.zip",
+    "size": 12612964,
+    "sha256": "20c1da4d7ea5394bc0e93ca2d491eb0ceb1faa29dcd52587a9ddb7a0e74e4d49",
     "files": {
       "english.catalog.json.gz": {
-        "size": 12045672,
-        "sha256": "d4d25b30530a233019960b55e78de0b2d3eaaef3f91ad38c0d7a9240b435f58c"
+        "size": 12565251,
+        "sha256": "a0ebccfc835c609bc5a9efdba109dfe0b35fed38069d9b1a87764b942c79afcd"
       },
       "mapping.json": {
         "size": 257903,
